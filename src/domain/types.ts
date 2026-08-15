@@ -6,5 +6,5 @@ export interface Catalog{version:string;source:string;subjects:Subject[]}
 export interface Preferences{preset:'standard'|'calm'|'custom';music:number;effects:number;voice:number;reducedMotion:boolean;decorations:boolean;highContrast:boolean;largeText:boolean;confirmTransitions:boolean}
 export interface Attempt{challengeId:string;correct:boolean;usedHint:boolean;review:boolean;at:string}
 export interface Session{id:string;subjectId:string;stationIndex:number;challengeIndex:number;status:'active'|'paused'|'completed';attempts:Attempt[];startedAt:string;completedAt?:string}
-export interface Profile{nickname:string;fullName?:string;school?:string;className?:string;teacher?:string}
-export interface AppData{profile:Profile;preferences:Preferences;sessions:Session[];stamps:string[];tickets:string[];trains:number}
+export interface Profile{nickname:string;partnerPokemon?:string;pokemonLevel?:number;fullName?:string;school?:string;className?:string;teacher?:string}
+export interface AppData{profile:Profile;preferences:Preferences;sessions:Session[];stamps:string[];badges:string[];}

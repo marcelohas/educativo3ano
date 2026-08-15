@@ -1,49 +1,3838 @@
 {
-  "version":"1.1.0","source":"Fonte exclusiva: 3o-ano-B-provas-trimestrais-e-roteiro-de-estudos.pdf","subjects":[
-    {"id":"matematica","name":"Matemática","color":"#e63946","icon":"➗","stations":[
-      {"id":"mat-numeros","name":"Estação dos Números","topic":"Números e operações","challenges":[{"id":"mat-1","type":"choice","prompt":"O trem tinha 24 passageiros e entraram mais 13. Quantos ficaram?","options":["37","35","41"],"answer":"37","hint":"Some as dezenas e depois as unidades.","explanation":"24 + 13 = 37.","language":"pt-BR","approved":true},{"id":"mat-2","type":"boolean","prompt":"5 × 4 é igual a 20.","options":["Verdadeiro","Falso"],"answer":"Verdadeiro","hint":"Conte 5 grupos de 4.","explanation":"5 grupos de 4 formam 20.","language":"pt-BR","approved":true}]},
-      {"id":"mat-medidas","name":"Estação das Medidas","topic":"Medidas","challenges":[{"id":"mat-3","type":"choice","prompt":"Qual unidade combina com o comprimento de um vagão?","options":["Metro","Litro","Quilograma"],"answer":"Metro","hint":"Comprimento mede distância.","explanation":"O metro é uma unidade de comprimento.","language":"pt-BR","approved":true},{"id":"mat-4","type":"fill","prompt":"Complete: 1 metro tem ___ centímetros.","options":[],"answer":"100","hint":"É uma centena.","explanation":"1 m = 100 cm.","language":"pt-BR","approved":true}]},
-      {"id":"mat-area","name":"Estação da Área","topic":"Ideia de área","challenges":[{"id":"mat-5","type":"choice","prompt":"Uma superfície com 3 fileiras de 4 quadrados tem quantos quadrados?","options":["7","12","14"],"answer":"12","hint":"Faça 3 × 4.","explanation":"3 fileiras de 4 formam área de 12 quadrados.","language":"pt-BR","approved":true},{"id":"mat-6","type":"boolean","prompt":"Área indica o espaço ocupado por uma superfície.","options":["Verdadeiro","Falso"],"answer":"Verdadeiro","hint":"Pense no piso de uma estação.","explanation":"Área mede a superfície ocupada.","language":"pt-BR","approved":true}]}
-    ]},
-    {"id":"portugues","name":"Português","color":"#ff8c00","icon":"📖","stations":[
-      {"id":"por-digrafos","name":"Estação dos Dígrafos","topic":"Dígrafos","challenges":[{"id":"por-1","type":"choice","prompt":"Qual palavra tem duas letras representando um som?","options":["Chave","Casa","Pato"],"answer":"Chave","hint":"Observe CH.","explanation":"Em chave, CH representa um som.","language":"pt-BR","approved":true},{"id":"por-2","type":"choice","prompt":"Qual palavra é escrita com RR?","options":["Carro","Caro","Arara"],"answer":"Carro","hint":"O som forte entre vogais pede RR.","explanation":"Carro é escrito com RR.","language":"pt-BR","approved":true}]},
-      {"id":"por-substantivos","name":"Estação dos Substantivos","topic":"Número do substantivo","challenges":[{"id":"por-3","type":"choice","prompt":"Qual é o plural de estação?","options":["Estaçãos","Estações","Estaçãoes"],"answer":"Estações","hint":"Termina com ções.","explanation":"O plural é estações.","language":"pt-BR","approved":true},{"id":"por-4","type":"boolean","prompt":"A palavra trens está no plural.","options":["Verdadeiro","Falso"],"answer":"Verdadeiro","hint":"Ela indica mais de um trem.","explanation":"Trens é plural de trem.","language":"pt-BR","approved":true}]},
-      {"id":"por-textos","name":"Estação das Histórias","topic":"Receitas, contos e adjetivos","challenges":[{"id":"por-5","type":"choice","prompt":"Qual palavra é um adjetivo em “o trem rápido”?","options":["Trem","Rápido","O"],"answer":"Rápido","hint":"Ela descreve o trem.","explanation":"Rápido dá uma característica ao trem.","language":"pt-BR","approved":true},{"id":"por-6","type":"choice","prompt":"Qual texto costuma trazer ingredientes e modo de fazer?","options":["Receita","Conto","Bilhete"],"answer":"Receita","hint":"Pense em preparar um alimento.","explanation":"A receita organiza ingredientes e preparo.","language":"pt-BR","approved":true}]}
-    ]},
-    {"id":"ciencias","name":"Ciências","color":"#2a9d55","icon":"🌱","stations":[
-      {"id":"cie-solo","name":"Estação do Solo","topic":"Formação e tipos de solo","challenges":[{"id":"cie-1","type":"choice","prompt":"Qual solo deixa a água passar mais rápido?","options":["Arenoso","Argiloso","Rocha inteira"],"answer":"Arenoso","hint":"Seus grãos têm mais espaços.","explanation":"O solo arenoso é mais permeável.","language":"pt-BR","approved":true},{"id":"cie-2","type":"boolean","prompt":"Minhocas podem viver no solo.","options":["Verdadeiro","Falso"],"answer":"Verdadeiro","hint":"Elas ajudam a movimentar a terra.","explanation":"Minhocas são seres vivos presentes no solo.","language":"pt-BR","approved":true}]},
-      {"id":"cie-animais","name":"Estação dos Animais","topic":"Classificação e alimentação","challenges":[{"id":"cie-3","type":"choice","prompt":"Qual animal é vertebrado?","options":["Cachorro","Minhoca","Borboleta"],"answer":"Cachorro","hint":"Vertebrados têm coluna vertebral.","explanation":"O cachorro possui coluna vertebral.","language":"pt-BR","approved":true},{"id":"cie-4","type":"choice","prompt":"Um animal que come plantas e carne é...","options":["Herbívoro","Onívoro","Detritívoro"],"answer":"Onívoro","hint":"Ele tem alimentação variada.","explanation":"Onívoros comem alimentos de origem vegetal e animal.","language":"pt-BR","approved":true}]},
-      {"id":"cie-ciclos","name":"Estação dos Ciclos","topic":"Grupos e ciclos de vida","challenges":[{"id":"cie-5","type":"order","prompt":"Qual é a ordem básica do ciclo de vida?","options":["Nascimento → crescimento → reprodução → morte","Crescimento → nascimento → morte → reprodução","Reprodução → morte → nascimento → crescimento"],"answer":"Nascimento → crescimento → reprodução → morte","hint":"Comece pelo nascimento.","explanation":"Essa é a sequência básica estudada.","language":"pt-BR","approved":true},{"id":"cie-6","type":"choice","prompt":"Qual grupo de vertebrados tem penas?","options":["Aves","Peixes","Répteis"],"answer":"Aves","hint":"Pense nos pássaros.","explanation":"Aves possuem penas.","language":"pt-BR","approved":true}]}
-    ]},
-    {"id":"historia","name":"História","color":"#8b5e3c","icon":"🏛️","stations":[
-      {"id":"his-culturas","name":"Estação das Culturas","topic":"Heranças culturais","challenges":[{"id":"his-1","type":"choice","prompt":"Uma festa tradicional pode ser uma herança...","options":["Cultural","Meteorológica","Ferroviária"],"answer":"Cultural","hint":"Ela passa entre gerações.","explanation":"Tradições fazem parte das heranças culturais.","language":"pt-BR","approved":true},{"id":"his-2","type":"boolean","prompt":"O Brasil reúne muitas culturas.","options":["Verdadeiro","Falso"],"answer":"Verdadeiro","hint":"Pense nos muitos povos do país.","explanation":"A cultura brasileira tem diversas influências.","language":"pt-BR","approved":true}]},
-      {"id":"his-cidade","name":"Estação da Cidadania","topic":"Direito à cidade","challenges":[{"id":"his-3","type":"choice","prompt":"Quem tem direito de usar os espaços públicos?","options":["Todas as pessoas","Só adultos","Só turistas"],"answer":"Todas as pessoas","hint":"A cidade é para todos.","explanation":"Espaços públicos devem atender toda a comunidade.","language":"pt-BR","approved":true},{"id":"his-4","type":"boolean","prompt":"Comunidades podem ter diferentes modos de viver.","options":["Verdadeiro","Falso"],"answer":"Verdadeiro","hint":"Há diversidade entre grupos.","explanation":"Cada comunidade constrói práticas próprias.","language":"pt-BR","approved":true}]},
-      {"id":"his-publicos","name":"Estação dos Espaços Públicos","topic":"Espaços da cidade","challenges":[{"id":"his-5","type":"choice","prompt":"Qual é um espaço público?","options":["Praça","Quarto","Cozinha de casa"],"answer":"Praça","hint":"Muitas pessoas podem usar.","explanation":"A praça é um espaço público da cidade.","language":"pt-BR","approved":true},{"id":"his-6","type":"choice","prompt":"Cuidar da praça é responsabilidade...","options":["Da comunidade e do poder público","De ninguém","Só das crianças"],"answer":"Da comunidade e do poder público","hint":"O cuidado é compartilhado.","explanation":"Todos colaboram e o poder público administra.","language":"pt-BR","approved":true}]}
-    ]},
-    {"id":"geografia","name":"Geografia","color":"#6a4c93","icon":"🗺️","stations":[
-      {"id":"geo-campo","name":"Estação do Campo","topic":"Trabalho e produção no campo","challenges":[{"id":"geo-1","type":"choice","prompt":"Qual atividade é comum no campo?","options":["Cultivo de alimentos","Controle de metrô","Construção de navios"],"answer":"Cultivo de alimentos","hint":"Pense nas plantações.","explanation":"A agricultura produz alimentos no campo.","language":"pt-BR","approved":true},{"id":"geo-2","type":"boolean","prompt":"Produtos do campo podem chegar à cidade.","options":["Verdadeiro","Falso"],"answer":"Verdadeiro","hint":"Pense nas feiras e mercados.","explanation":"Campo e cidade trocam produtos e serviços.","language":"pt-BR","approved":true}]},
-      {"id":"geo-paisagem","name":"Estação da Paisagem","topic":"Mudanças e permanências","challenges":[{"id":"geo-3","type":"choice","prompt":"Uma nova avenida representa uma...","options":["Mudança na paisagem","Estação do ano","Permanência total"],"answer":"Mudança na paisagem","hint":"O espaço ficou diferente.","explanation":"Construções transformam a paisagem.","language":"pt-BR","approved":true},{"id":"geo-4","type":"boolean","prompt":"Uma paisagem pode ter partes antigas e novas.","options":["Verdadeiro","Falso"],"answer":"Verdadeiro","hint":"Mudanças e permanências convivem.","explanation":"Elementos de épocas diferentes podem permanecer juntos.","language":"pt-BR","approved":true}]},
-      {"id":"geo-cidade","name":"Estação Cidade Viva","topic":"A cidade também é feita disso","challenges":[{"id":"geo-5","type":"choice","prompt":"Além de prédios, uma cidade é formada por...","options":["Pessoas e relações","Só carros","Somente ruas"],"answer":"Pessoas e relações","hint":"Quem vive e trabalha nela?","explanation":"Pessoas, trabalhos, culturas e relações formam a cidade.","language":"pt-BR","approved":true},{"id":"geo-6","type":"choice","prompt":"O metrô é parte de qual sistema urbano?","options":["Transporte","Agricultura","Clima"],"answer":"Transporte","hint":"Ele leva pessoas pela cidade.","explanation":"O metrô integra o transporte urbano.","language":"pt-BR","approved":true}]}
-    ]},
-    {"id":"espanhol","name":"Espanhol","color":"#f4b400","icon":"👕","stations":[
-      {"id":"esp-ropa","name":"Estación de la Ropa","topic":"Prendas de vestir","challenges":[{"id":"esp-1","type":"choice","prompt":"¿Cómo se dice camiseta?","options":["Camiseta","Zapatos","Gorro"],"answer":"Camiseta","hint":"A palavra é parecida em português.","explanation":"Camiseta é uma prenda de vestir.","language":"es-ES","approved":true},{"id":"esp-2","type":"choice","prompt":"¿Qué llevas en los pies?","options":["Zapatos","Bufanda","Gafas"],"answer":"Zapatos","hint":"Eles protegem os pés.","explanation":"Llevamos zapatos en los pies.","language":"es-ES","approved":true}]},
-      {"id":"esp-describir","name":"Estación de Describir","topic":"Descrever roupas","challenges":[{"id":"esp-3","type":"choice","prompt":"Completa: La falda es ___.","options":["Roja","Rojos","Rojo"],"answer":"Roja","hint":"Falda é feminino.","explanation":"O adjetivo concorda: falda roja.","language":"es-ES","approved":true},{"id":"esp-4","type":"boolean","prompt":"“¿Qué ropa llevas?” pregunta sobre la ropa.","options":["Verdadero","Falso"],"answer":"Verdadero","hint":"Ropa significa roupa.","explanation":"A pergunta quer saber quais roupas alguém usa.","language":"es-ES","approved":true}]},
-      {"id":"esp-posesivos","name":"Estación Posesiva","topic":"Pronomes possessivos","challenges":[{"id":"esp-5","type":"choice","prompt":"Completa: Esta es ___ camiseta. (yo)","options":["Mi","Tu","Su"],"answer":"Mi","hint":"A camiseta pertence a mim.","explanation":"Mi indica posse da primeira pessoa.","language":"es-ES","approved":true},{"id":"esp-6","type":"choice","prompt":"“Tus zapatos” indica que los zapatos son de...","options":["Tú","Yo","Él"],"answer":"Tú","hint":"Observe tus.","explanation":"Tus indica posse de tú.","language":"es-ES","approved":true}]}
-    ]},
-    {"id":"ingles","name":"Inglês","color":"#1677bd","icon":"🐕","stations":[
-      {"id":"ing-home","name":"Home Station","topic":"Physical characteristics and household machines","challenges":[{"id":"ing-1","type":"choice","prompt":"Which machine keeps food cold?","options":["Fridge","Lamp","Sofa"],"answer":"Fridge","hint":"It is a machine in the kitchen.","explanation":"A fridge is a household machine that keeps food cold.","language":"en-US","approved":true},{"id":"ing-2","type":"choice","prompt":"Which word describes a physical characteristic?","options":["Tall","Kitchen","Fridge"],"answer":"Tall","hint":"Choose the word that can describe a person.","explanation":"Tall describes a physical characteristic.","language":"en-US","approved":true}]},
-      {"id":"ing-animals","name":"Animal Station","topic":"Wild and domestic animals","challenges":[{"id":"ing-3","type":"choice","prompt":"Which animal is domestic?","options":["Dog","Lion","Shark"],"answer":"Dog","hint":"It often lives with people.","explanation":"A dog is a domestic animal.","language":"en-US","approved":true},{"id":"ing-4","type":"boolean","prompt":"A lion is a wild animal.","options":["True","False"],"answer":"True","hint":"It does not usually live as a pet.","explanation":"Lions are wild animals.","language":"en-US","approved":true}]},
-      {"id":"ing-actions","name":"Action Station","topic":"Superlatives and animal actions","challenges":[{"id":"ing-5","type":"choice","prompt":"Complete: The cheetah is the ___ land animal.","options":["fastest","fast","small"],"answer":"fastest","hint":"Use the superlative form.","explanation":"Fastest is the superlative of fast.","language":"en-US","approved":true},{"id":"ing-6","type":"choice","prompt":"Which action can a bird do?","options":["Fly","Read","Cook"],"answer":"Fly","hint":"It uses its wings.","explanation":"Many birds can fly.","language":"en-US","approved":true}]}
-    ]},
-    {"id":"science","name":"Science","color":"#00a896","icon":"🐸","stations":[
-      {"id":"sci-mammals","name":"Mammals Station","topic":"Mammals and humans","challenges":[{"id":"sci-1","type":"boolean","prompt":"Humans are mammals.","options":["True","False"],"answer":"True","hint":"Mammal mothers feed babies milk.","explanation":"Humans belong to the mammal group.","language":"en-US","approved":true},{"id":"sci-2","type":"choice","prompt":"Which animal is a mammal?","options":["Whale","Frog","Ant"],"answer":"Whale","hint":"It breathes air and feeds milk to its young.","explanation":"A whale is a mammal.","language":"en-US","approved":true}]},
-      {"id":"sci-fly-swim","name":"Fly or Swim Station","topic":"Birds and fishes","challenges":[{"id":"sci-3","type":"choice","prompt":"What helps a fish breathe in water?","options":["Gills","Feathers","Fur"],"answer":"Gills","hint":"They are beside its head.","explanation":"Fish use gills to breathe in water.","language":"en-US","approved":true},{"id":"sci-4","type":"choice","prompt":"What covers a bird's body?","options":["Feathers","Scales only","Shell"],"answer":"Feathers","hint":"They help many birds fly.","explanation":"Birds have feathers.","language":"en-US","approved":true}]},
-      {"id":"sci-groups","name":"Animal Groups Station","topic":"Amphibians, reptiles and invertebrates","challenges":[{"id":"sci-5","type":"choice","prompt":"Which animal is an amphibian?","options":["Frog","Snake","Spider"],"answer":"Frog","hint":"It can live in water and on land.","explanation":"A frog is an amphibian.","language":"en-US","approved":true},{"id":"sci-6","type":"choice","prompt":"Which animal is an arthropod?","options":["Ant","Dog","Fish"],"answer":"Ant","hint":"It has jointed legs.","explanation":"An ant is an arthropod and invertebrate.","language":"en-US","approved":true}]}
-    ]},
-    {"id":"mooney","name":"Mooney","color":"#d45087","icon":"🤝","stations":[
-      {"id":"moo-culture","name":"Cultural Goods Station","topic":"Tangible and intangible culture","challenges":[{"id":"moo-1","type":"choice","prompt":"Which is an intangible cultural good?","options":["A traditional song","A building","A coin"],"answer":"A traditional song","hint":"You cannot hold it in your hand.","explanation":"Songs are intangible cultural goods.","language":"en-US","approved":true},{"id":"moo-2","type":"boolean","prompt":"Cultural assets should be respected.","options":["True","False"],"answer":"True","hint":"They help tell a community's story.","explanation":"Respect helps preserve cultural assets.","language":"en-US","approved":true}]},
-      {"id":"moo-home","name":"Homework Station","topic":"Household chores","challenges":[{"id":"moo-3","type":"choice","prompt":"Which is a household chore?","options":["Making the bed","Missing school","Breaking a toy"],"answer":"Making the bed","hint":"It helps care for the home.","explanation":"Making the bed is a household chore.","language":"en-US","approved":true},{"id":"moo-4","type":"boolean","prompt":"Household chores can be shared.","options":["True","False"],"answer":"True","hint":"People can work together.","explanation":"Sharing chores contributes to the common good.","language":"en-US","approved":true}]},
-      {"id":"moo-community","name":"Community Station","topic":"Places, rules and types of allowance","challenges":[{"id":"moo-5","type":"choice","prompt":"Why do shared places have rules?","options":["For good coexistence","To stop all play","To confuse people"],"answer":"For good coexistence","hint":"Rules help people share space.","explanation":"Respecting rules enables good coexistence in community life.","language":"en-US","approved":true},{"id":"moo-6","type":"choice","prompt":"Which expression means money received every week?","options":["Weekly allowance","Daily allowance","Household chore"],"answer":"Weekly allowance","hint":"Weekly means every week.","explanation":"A weekly allowance is received every week.","language":"en-US","approved":true}]}
-    ]}
+  "version": "2.0.0",
+  "source": "Tema Pokémon 3o Ano",
+  "subjects": [
+    {
+      "id": "matematica",
+      "name": "Matemática",
+      "color": "#e63946",
+      "icon": "🔴",
+      "stations": [
+        {
+          "id": "mat-numeros",
+          "name": "Rota dos Números",
+          "topic": "Números e operações",
+          "challenges": [
+            {
+              "id": "mat-1-1",
+              "type": "choice",
+              "prompt": "Um treinador Pokémon tinha 56 Pokébolas e comprou mais 40. Quantas Pokébolas ele tem agora?",
+              "options": [
+                "96",
+                "97",
+                "94"
+              ],
+              "answer": "96",
+              "hint": "Some as unidades e depois as dezenas.",
+              "explanation": "56 + 40 = 96",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-1-2",
+              "type": "choice",
+              "prompt": "Um treinador Pokémon tinha 41 Pokébolas e comprou mais 43. Quantas Pokébolas ele tem agora?",
+              "options": [
+                "84",
+                "85",
+                "82"
+              ],
+              "answer": "84",
+              "hint": "Some as unidades e depois as dezenas.",
+              "explanation": "41 + 43 = 84",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-1-3",
+              "type": "choice",
+              "prompt": "Um treinador Pokémon tinha 48 Pokébolas e comprou mais 39. Quantas Pokébolas ele tem agora?",
+              "options": [
+                "87",
+                "88",
+                "85"
+              ],
+              "answer": "87",
+              "hint": "Some as unidades e depois as dezenas.",
+              "explanation": "48 + 39 = 87",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-1-4",
+              "type": "choice",
+              "prompt": "Um treinador Pokémon tinha 34 Pokébolas e comprou mais 28. Quantas Pokébolas ele tem agora?",
+              "options": [
+                "62",
+                "63",
+                "60"
+              ],
+              "answer": "62",
+              "hint": "Some as unidades e depois as dezenas.",
+              "explanation": "34 + 28 = 62",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-1-5",
+              "type": "choice",
+              "prompt": "Um treinador Pokémon tinha 25 Pokébolas e comprou mais 24. Quantas Pokébolas ele tem agora?",
+              "options": [
+                "49",
+                "50",
+                "47"
+              ],
+              "answer": "49",
+              "hint": "Some as unidades e depois as dezenas.",
+              "explanation": "25 + 24 = 49",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-1-6",
+              "type": "choice",
+              "prompt": "Um treinador Pokémon tinha 31 Pokébolas e comprou mais 43. Quantas Pokébolas ele tem agora?",
+              "options": [
+                "74",
+                "75",
+                "72"
+              ],
+              "answer": "74",
+              "hint": "Some as unidades e depois as dezenas.",
+              "explanation": "31 + 43 = 74",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-1-7",
+              "type": "choice",
+              "prompt": "Um treinador Pokémon tinha 43 Pokébolas e comprou mais 47. Quantas Pokébolas ele tem agora?",
+              "options": [
+                "90",
+                "91",
+                "88"
+              ],
+              "answer": "90",
+              "hint": "Some as unidades e depois as dezenas.",
+              "explanation": "43 + 47 = 90",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-1-8",
+              "type": "choice",
+              "prompt": "Um treinador Pokémon tinha 39 Pokébolas e comprou mais 12. Quantas Pokébolas ele tem agora?",
+              "options": [
+                "51",
+                "52",
+                "49"
+              ],
+              "answer": "51",
+              "hint": "Some as unidades e depois as dezenas.",
+              "explanation": "39 + 12 = 51",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-1-9",
+              "type": "choice",
+              "prompt": "Um treinador Pokémon tinha 10 Pokébolas e comprou mais 15. Quantas Pokébolas ele tem agora?",
+              "options": [
+                "25",
+                "26",
+                "23"
+              ],
+              "answer": "25",
+              "hint": "Some as unidades e depois as dezenas.",
+              "explanation": "10 + 15 = 25",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-1-10",
+              "type": "choice",
+              "prompt": "Um treinador Pokémon tinha 45 Pokébolas e comprou mais 23. Quantas Pokébolas ele tem agora?",
+              "options": [
+                "68",
+                "69",
+                "66"
+              ],
+              "answer": "68",
+              "hint": "Some as unidades e depois as dezenas.",
+              "explanation": "45 + 23 = 68",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "mat-medidas",
+          "name": "Rota das Medidas",
+          "topic": "Medidas",
+          "challenges": [
+            {
+              "id": "mat-2-1",
+              "type": "choice",
+              "prompt": "Qual unidade usamos para medir o peso de um Snorlax?",
+              "options": [
+                "Metro",
+                "Litro",
+                "Quilograma"
+              ],
+              "answer": "Quilograma",
+              "hint": "Pense no que estamos medindo (tamanho, peso ou líquido).",
+              "explanation": "Quilograma é a unidade correta.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-2-2",
+              "type": "choice",
+              "prompt": "Qual unidade usamos para medir a água que um Squirtle bebe?",
+              "options": [
+                "Metro",
+                "Litro",
+                "Quilograma"
+              ],
+              "answer": "Litro",
+              "hint": "Pense no que estamos medindo (tamanho, peso ou líquido).",
+              "explanation": "Litro é a unidade correta.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-2-3",
+              "type": "choice",
+              "prompt": "Qual unidade usamos para medir a altura de um Pokémon?",
+              "options": [
+                "Metro",
+                "Litro",
+                "Quilograma"
+              ],
+              "answer": "Metro",
+              "hint": "Pense no que estamos medindo (tamanho, peso ou líquido).",
+              "explanation": "Metro é a unidade correta.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-2-4",
+              "type": "choice",
+              "prompt": "Qual unidade usamos para medir o peso de um Snorlax?",
+              "options": [
+                "Metro",
+                "Litro",
+                "Quilograma"
+              ],
+              "answer": "Quilograma",
+              "hint": "Pense no que estamos medindo (tamanho, peso ou líquido).",
+              "explanation": "Quilograma é a unidade correta.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-2-5",
+              "type": "choice",
+              "prompt": "Qual unidade usamos para medir a água que um Squirtle bebe?",
+              "options": [
+                "Metro",
+                "Litro",
+                "Quilograma"
+              ],
+              "answer": "Litro",
+              "hint": "Pense no que estamos medindo (tamanho, peso ou líquido).",
+              "explanation": "Litro é a unidade correta.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-2-6",
+              "type": "choice",
+              "prompt": "Qual unidade usamos para medir a altura de um Pokémon?",
+              "options": [
+                "Metro",
+                "Litro",
+                "Quilograma"
+              ],
+              "answer": "Metro",
+              "hint": "Pense no que estamos medindo (tamanho, peso ou líquido).",
+              "explanation": "Metro é a unidade correta.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-2-7",
+              "type": "choice",
+              "prompt": "Qual unidade usamos para medir o peso de um Snorlax?",
+              "options": [
+                "Metro",
+                "Litro",
+                "Quilograma"
+              ],
+              "answer": "Quilograma",
+              "hint": "Pense no que estamos medindo (tamanho, peso ou líquido).",
+              "explanation": "Quilograma é a unidade correta.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-2-8",
+              "type": "choice",
+              "prompt": "Qual unidade usamos para medir a água que um Squirtle bebe?",
+              "options": [
+                "Metro",
+                "Litro",
+                "Quilograma"
+              ],
+              "answer": "Litro",
+              "hint": "Pense no que estamos medindo (tamanho, peso ou líquido).",
+              "explanation": "Litro é a unidade correta.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-2-9",
+              "type": "choice",
+              "prompt": "Qual unidade usamos para medir a altura de um Pokémon?",
+              "options": [
+                "Metro",
+                "Litro",
+                "Quilograma"
+              ],
+              "answer": "Metro",
+              "hint": "Pense no que estamos medindo (tamanho, peso ou líquido).",
+              "explanation": "Metro é a unidade correta.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-2-10",
+              "type": "choice",
+              "prompt": "Qual unidade usamos para medir o peso de um Snorlax?",
+              "options": [
+                "Metro",
+                "Litro",
+                "Quilograma"
+              ],
+              "answer": "Quilograma",
+              "hint": "Pense no que estamos medindo (tamanho, peso ou líquido).",
+              "explanation": "Quilograma é a unidade correta.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "mat-area",
+          "name": "Rota da Área",
+          "topic": "Ideia de área",
+          "challenges": [
+            {
+              "id": "mat-3-1",
+              "type": "choice",
+              "prompt": "Um campo de batalha tem 6 quadrados de largura e 3 de altura. Quantos quadrados formam a área do campo?",
+              "options": [
+                "18",
+                "9",
+                "20"
+              ],
+              "answer": "18",
+              "hint": "Multiplique 6 por 3.",
+              "explanation": "6 fileiras de 3 quadrados formam uma área de 18.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-3-2",
+              "type": "choice",
+              "prompt": "Um campo de batalha tem 2 quadrados de largura e 3 de altura. Quantos quadrados formam a área do campo?",
+              "options": [
+                "6",
+                "5",
+                "8"
+              ],
+              "answer": "6",
+              "hint": "Multiplique 2 por 3.",
+              "explanation": "2 fileiras de 3 quadrados formam uma área de 6.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-3-3",
+              "type": "choice",
+              "prompt": "Um campo de batalha tem 6 quadrados de largura e 4 de altura. Quantos quadrados formam a área do campo?",
+              "options": [
+                "24",
+                "10",
+                "26"
+              ],
+              "answer": "24",
+              "hint": "Multiplique 6 por 4.",
+              "explanation": "6 fileiras de 4 quadrados formam uma área de 24.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-3-4",
+              "type": "choice",
+              "prompt": "Um campo de batalha tem 6 quadrados de largura e 2 de altura. Quantos quadrados formam a área do campo?",
+              "options": [
+                "12",
+                "8",
+                "14"
+              ],
+              "answer": "12",
+              "hint": "Multiplique 6 por 2.",
+              "explanation": "6 fileiras de 2 quadrados formam uma área de 12.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-3-5",
+              "type": "choice",
+              "prompt": "Um campo de batalha tem 4 quadrados de largura e 3 de altura. Quantos quadrados formam a área do campo?",
+              "options": [
+                "12",
+                "7",
+                "14"
+              ],
+              "answer": "12",
+              "hint": "Multiplique 4 por 3.",
+              "explanation": "4 fileiras de 3 quadrados formam uma área de 12.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-3-6",
+              "type": "choice",
+              "prompt": "Um campo de batalha tem 6 quadrados de largura e 5 de altura. Quantos quadrados formam a área do campo?",
+              "options": [
+                "30",
+                "11",
+                "32"
+              ],
+              "answer": "30",
+              "hint": "Multiplique 6 por 5.",
+              "explanation": "6 fileiras de 5 quadrados formam uma área de 30.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-3-7",
+              "type": "choice",
+              "prompt": "Um campo de batalha tem 5 quadrados de largura e 3 de altura. Quantos quadrados formam a área do campo?",
+              "options": [
+                "15",
+                "8",
+                "17"
+              ],
+              "answer": "15",
+              "hint": "Multiplique 5 por 3.",
+              "explanation": "5 fileiras de 3 quadrados formam uma área de 15.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-3-8",
+              "type": "choice",
+              "prompt": "Um campo de batalha tem 5 quadrados de largura e 2 de altura. Quantos quadrados formam a área do campo?",
+              "options": [
+                "10",
+                "7",
+                "12"
+              ],
+              "answer": "10",
+              "hint": "Multiplique 5 por 2.",
+              "explanation": "5 fileiras de 2 quadrados formam uma área de 10.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-3-9",
+              "type": "choice",
+              "prompt": "Um campo de batalha tem 4 quadrados de largura e 3 de altura. Quantos quadrados formam a área do campo?",
+              "options": [
+                "12",
+                "7",
+                "14"
+              ],
+              "answer": "12",
+              "hint": "Multiplique 4 por 3.",
+              "explanation": "4 fileiras de 3 quadrados formam uma área de 12.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "mat-3-10",
+              "type": "choice",
+              "prompt": "Um campo de batalha tem 4 quadrados de largura e 3 de altura. Quantos quadrados formam a área do campo?",
+              "options": [
+                "12",
+                "7",
+                "14"
+              ],
+              "answer": "12",
+              "hint": "Multiplique 4 por 3.",
+              "explanation": "4 fileiras de 3 quadrados formam uma área de 12.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portugues",
+      "name": "Português",
+      "color": "#ff8c00",
+      "icon": "📘",
+      "stations": [
+        {
+          "id": "por-digrafos",
+          "name": "Rota dos Dígrafos",
+          "topic": "Dígrafos",
+          "challenges": [
+            {
+              "id": "por-1-1",
+              "type": "choice",
+              "prompt": "Qual palavra usa RR ou SS?",
+              "options": [
+                "Passarinho",
+                "Sapo",
+                "Rato"
+              ],
+              "answer": "Passarinho",
+              "hint": "Procure letras que juntas formam um único som, como CH, RR ou SS.",
+              "explanation": "Em passarinho, SS e NH são dígrafos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-1-2",
+              "type": "choice",
+              "prompt": "Qual palavra tem duas letras representando um som (dígrafo)?",
+              "options": [
+                "Cachorro",
+                "Gato",
+                "Pato"
+              ],
+              "answer": "Cachorro",
+              "hint": "Procure letras que juntas formam um único som, como CH, RR ou SS.",
+              "explanation": "Em cachorro, CH e RR são dígrafos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-1-3",
+              "type": "choice",
+              "prompt": "Qual palavra usa RR ou SS?",
+              "options": [
+                "Passarinho",
+                "Sapo",
+                "Rato"
+              ],
+              "answer": "Passarinho",
+              "hint": "Procure letras que juntas formam um único som, como CH, RR ou SS.",
+              "explanation": "Em passarinho, SS e NH são dígrafos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-1-4",
+              "type": "choice",
+              "prompt": "Qual palavra tem duas letras representando um som (dígrafo)?",
+              "options": [
+                "Cachorro",
+                "Gato",
+                "Pato"
+              ],
+              "answer": "Cachorro",
+              "hint": "Procure letras que juntas formam um único som, como CH, RR ou SS.",
+              "explanation": "Em cachorro, CH e RR são dígrafos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-1-5",
+              "type": "choice",
+              "prompt": "Qual palavra usa RR ou SS?",
+              "options": [
+                "Passarinho",
+                "Sapo",
+                "Rato"
+              ],
+              "answer": "Passarinho",
+              "hint": "Procure letras que juntas formam um único som, como CH, RR ou SS.",
+              "explanation": "Em passarinho, SS e NH são dígrafos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-1-6",
+              "type": "choice",
+              "prompt": "Qual palavra tem duas letras representando um som (dígrafo)?",
+              "options": [
+                "Cachorro",
+                "Gato",
+                "Pato"
+              ],
+              "answer": "Cachorro",
+              "hint": "Procure letras que juntas formam um único som, como CH, RR ou SS.",
+              "explanation": "Em cachorro, CH e RR são dígrafos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-1-7",
+              "type": "choice",
+              "prompt": "Qual palavra usa RR ou SS?",
+              "options": [
+                "Passarinho",
+                "Sapo",
+                "Rato"
+              ],
+              "answer": "Passarinho",
+              "hint": "Procure letras que juntas formam um único som, como CH, RR ou SS.",
+              "explanation": "Em passarinho, SS e NH são dígrafos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-1-8",
+              "type": "choice",
+              "prompt": "Qual palavra tem duas letras representando um som (dígrafo)?",
+              "options": [
+                "Cachorro",
+                "Gato",
+                "Pato"
+              ],
+              "answer": "Cachorro",
+              "hint": "Procure letras que juntas formam um único som, como CH, RR ou SS.",
+              "explanation": "Em cachorro, CH e RR são dígrafos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-1-9",
+              "type": "choice",
+              "prompt": "Qual palavra usa RR ou SS?",
+              "options": [
+                "Passarinho",
+                "Sapo",
+                "Rato"
+              ],
+              "answer": "Passarinho",
+              "hint": "Procure letras que juntas formam um único som, como CH, RR ou SS.",
+              "explanation": "Em passarinho, SS e NH são dígrafos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-1-10",
+              "type": "choice",
+              "prompt": "Qual palavra tem duas letras representando um som (dígrafo)?",
+              "options": [
+                "Cachorro",
+                "Gato",
+                "Pato"
+              ],
+              "answer": "Cachorro",
+              "hint": "Procure letras que juntas formam um único som, como CH, RR ou SS.",
+              "explanation": "Em cachorro, CH e RR são dígrafos.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "por-substantivos",
+          "name": "Rota dos Substantivos",
+          "topic": "Número do substantivo",
+          "challenges": [
+            {
+              "id": "por-2-1",
+              "type": "choice",
+              "prompt": "Qual é o plural da palavra \"Poção\"?",
+              "options": [
+                "Poções",
+                "Poçãos",
+                "Poçãoes"
+              ],
+              "answer": "Poções",
+              "hint": "Palavras terminadas em ão costumam formar o plural com ões.",
+              "explanation": "O plural de Poção é Poções.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-2-2",
+              "type": "choice",
+              "prompt": "Qual é o plural da palavra \"Poção\"?",
+              "options": [
+                "Poções",
+                "Poçãos",
+                "Poçãoes"
+              ],
+              "answer": "Poções",
+              "hint": "Palavras terminadas em ão costumam formar o plural com ões.",
+              "explanation": "O plural de Poção é Poções.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-2-3",
+              "type": "choice",
+              "prompt": "Qual é o plural da palavra \"Poção\"?",
+              "options": [
+                "Poções",
+                "Poçãos",
+                "Poçãoes"
+              ],
+              "answer": "Poções",
+              "hint": "Palavras terminadas em ão costumam formar o plural com ões.",
+              "explanation": "O plural de Poção é Poções.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-2-4",
+              "type": "choice",
+              "prompt": "Qual é o plural da palavra \"Poção\"?",
+              "options": [
+                "Poções",
+                "Poçãos",
+                "Poçãoes"
+              ],
+              "answer": "Poções",
+              "hint": "Palavras terminadas em ão costumam formar o plural com ões.",
+              "explanation": "O plural de Poção é Poções.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-2-5",
+              "type": "choice",
+              "prompt": "Qual é o plural da palavra \"Poção\"?",
+              "options": [
+                "Poções",
+                "Poçãos",
+                "Poçãoes"
+              ],
+              "answer": "Poções",
+              "hint": "Palavras terminadas em ão costumam formar o plural com ões.",
+              "explanation": "O plural de Poção é Poções.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-2-6",
+              "type": "choice",
+              "prompt": "Qual é o plural da palavra \"Poção\"?",
+              "options": [
+                "Poções",
+                "Poçãos",
+                "Poçãoes"
+              ],
+              "answer": "Poções",
+              "hint": "Palavras terminadas em ão costumam formar o plural com ões.",
+              "explanation": "O plural de Poção é Poções.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-2-7",
+              "type": "choice",
+              "prompt": "Qual é o plural da palavra \"Poção\"?",
+              "options": [
+                "Poções",
+                "Poçãos",
+                "Poçãoes"
+              ],
+              "answer": "Poções",
+              "hint": "Palavras terminadas em ão costumam formar o plural com ões.",
+              "explanation": "O plural de Poção é Poções.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-2-8",
+              "type": "choice",
+              "prompt": "Qual é o plural da palavra \"Poção\"?",
+              "options": [
+                "Poções",
+                "Poçãos",
+                "Poçãoes"
+              ],
+              "answer": "Poções",
+              "hint": "Palavras terminadas em ão costumam formar o plural com ões.",
+              "explanation": "O plural de Poção é Poções.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-2-9",
+              "type": "choice",
+              "prompt": "Qual é o plural da palavra \"Poção\"?",
+              "options": [
+                "Poções",
+                "Poçãos",
+                "Poçãoes"
+              ],
+              "answer": "Poções",
+              "hint": "Palavras terminadas em ão costumam formar o plural com ões.",
+              "explanation": "O plural de Poção é Poções.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-2-10",
+              "type": "choice",
+              "prompt": "Qual é o plural da palavra \"Poção\"?",
+              "options": [
+                "Poções",
+                "Poçãos",
+                "Poçãoes"
+              ],
+              "answer": "Poções",
+              "hint": "Palavras terminadas em ão costumam formar o plural com ões.",
+              "explanation": "O plural de Poção é Poções.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "por-textos",
+          "name": "Rota das Histórias",
+          "topic": "Receitas, contos e adjetivos",
+          "challenges": [
+            {
+              "id": "por-3-1",
+              "type": "choice",
+              "prompt": "Qual palavra descreve uma qualidade do Pokémon na frase: 'O Pikachu é elétrico e rápido'?",
+              "options": [
+                "Rápido",
+                "O",
+                "E"
+              ],
+              "answer": "Rápido",
+              "hint": "Adjetivos dão qualidades.",
+              "explanation": "Elétrico e rápido são adjetivos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-3-2",
+              "type": "choice",
+              "prompt": "Qual palavra descreve uma qualidade do Pokémon na frase: 'O Pikachu é elétrico e rápido'?",
+              "options": [
+                "Rápido",
+                "O",
+                "E"
+              ],
+              "answer": "Rápido",
+              "hint": "Adjetivos dão qualidades.",
+              "explanation": "Elétrico e rápido são adjetivos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-3-3",
+              "type": "choice",
+              "prompt": "Qual palavra descreve uma qualidade do Pokémon na frase: 'O Pikachu é elétrico e rápido'?",
+              "options": [
+                "Rápido",
+                "O",
+                "E"
+              ],
+              "answer": "Rápido",
+              "hint": "Adjetivos dão qualidades.",
+              "explanation": "Elétrico e rápido são adjetivos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-3-4",
+              "type": "choice",
+              "prompt": "Qual palavra descreve uma qualidade do Pokémon na frase: 'O Pikachu é elétrico e rápido'?",
+              "options": [
+                "Rápido",
+                "O",
+                "E"
+              ],
+              "answer": "Rápido",
+              "hint": "Adjetivos dão qualidades.",
+              "explanation": "Elétrico e rápido são adjetivos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-3-5",
+              "type": "choice",
+              "prompt": "Qual palavra descreve uma qualidade do Pokémon na frase: 'O Pikachu é elétrico e rápido'?",
+              "options": [
+                "Rápido",
+                "O",
+                "E"
+              ],
+              "answer": "Rápido",
+              "hint": "Adjetivos dão qualidades.",
+              "explanation": "Elétrico e rápido são adjetivos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-3-6",
+              "type": "choice",
+              "prompt": "Qual palavra descreve uma qualidade do Pokémon na frase: 'O Pikachu é elétrico e rápido'?",
+              "options": [
+                "Rápido",
+                "O",
+                "E"
+              ],
+              "answer": "Rápido",
+              "hint": "Adjetivos dão qualidades.",
+              "explanation": "Elétrico e rápido são adjetivos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-3-7",
+              "type": "choice",
+              "prompt": "Qual palavra descreve uma qualidade do Pokémon na frase: 'O Pikachu é elétrico e rápido'?",
+              "options": [
+                "Rápido",
+                "O",
+                "E"
+              ],
+              "answer": "Rápido",
+              "hint": "Adjetivos dão qualidades.",
+              "explanation": "Elétrico e rápido são adjetivos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-3-8",
+              "type": "choice",
+              "prompt": "Qual palavra descreve uma qualidade do Pokémon na frase: 'O Pikachu é elétrico e rápido'?",
+              "options": [
+                "Rápido",
+                "O",
+                "E"
+              ],
+              "answer": "Rápido",
+              "hint": "Adjetivos dão qualidades.",
+              "explanation": "Elétrico e rápido são adjetivos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-3-9",
+              "type": "choice",
+              "prompt": "Qual palavra descreve uma qualidade do Pokémon na frase: 'O Pikachu é elétrico e rápido'?",
+              "options": [
+                "Rápido",
+                "O",
+                "E"
+              ],
+              "answer": "Rápido",
+              "hint": "Adjetivos dão qualidades.",
+              "explanation": "Elétrico e rápido são adjetivos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "por-3-10",
+              "type": "choice",
+              "prompt": "Qual palavra descreve uma qualidade do Pokémon na frase: 'O Pikachu é elétrico e rápido'?",
+              "options": [
+                "Rápido",
+                "O",
+                "E"
+              ],
+              "answer": "Rápido",
+              "hint": "Adjetivos dão qualidades.",
+              "explanation": "Elétrico e rápido são adjetivos.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ciencias",
+      "name": "Ciências",
+      "color": "#2a9d55",
+      "icon": "🍃",
+      "stations": [
+        {
+          "id": "cie-solo",
+          "name": "Rota do Solo",
+          "topic": "Formação e tipos de solo",
+          "challenges": [
+            {
+              "id": "cie-1-1",
+              "type": "choice",
+              "prompt": "Qual solo retém mais água?",
+              "options": [
+                "Argiloso",
+                "Arenoso",
+                "Rochoso"
+              ],
+              "answer": "Argiloso",
+              "hint": "Pense no solo que forma barro.",
+              "explanation": "O solo argiloso retém mais água.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-1-2",
+              "type": "choice",
+              "prompt": "Qual solo retém mais água?",
+              "options": [
+                "Argiloso",
+                "Arenoso",
+                "Rochoso"
+              ],
+              "answer": "Argiloso",
+              "hint": "Pense no solo que forma barro.",
+              "explanation": "O solo argiloso retém mais água.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-1-3",
+              "type": "choice",
+              "prompt": "Qual solo retém mais água?",
+              "options": [
+                "Argiloso",
+                "Arenoso",
+                "Rochoso"
+              ],
+              "answer": "Argiloso",
+              "hint": "Pense no solo que forma barro.",
+              "explanation": "O solo argiloso retém mais água.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-1-4",
+              "type": "choice",
+              "prompt": "Qual solo retém mais água?",
+              "options": [
+                "Argiloso",
+                "Arenoso",
+                "Rochoso"
+              ],
+              "answer": "Argiloso",
+              "hint": "Pense no solo que forma barro.",
+              "explanation": "O solo argiloso retém mais água.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-1-5",
+              "type": "choice",
+              "prompt": "Qual solo retém mais água?",
+              "options": [
+                "Argiloso",
+                "Arenoso",
+                "Rochoso"
+              ],
+              "answer": "Argiloso",
+              "hint": "Pense no solo que forma barro.",
+              "explanation": "O solo argiloso retém mais água.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-1-6",
+              "type": "choice",
+              "prompt": "Qual solo retém mais água?",
+              "options": [
+                "Argiloso",
+                "Arenoso",
+                "Rochoso"
+              ],
+              "answer": "Argiloso",
+              "hint": "Pense no solo que forma barro.",
+              "explanation": "O solo argiloso retém mais água.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-1-7",
+              "type": "choice",
+              "prompt": "Qual solo retém mais água?",
+              "options": [
+                "Argiloso",
+                "Arenoso",
+                "Rochoso"
+              ],
+              "answer": "Argiloso",
+              "hint": "Pense no solo que forma barro.",
+              "explanation": "O solo argiloso retém mais água.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-1-8",
+              "type": "choice",
+              "prompt": "Qual solo retém mais água?",
+              "options": [
+                "Argiloso",
+                "Arenoso",
+                "Rochoso"
+              ],
+              "answer": "Argiloso",
+              "hint": "Pense no solo que forma barro.",
+              "explanation": "O solo argiloso retém mais água.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-1-9",
+              "type": "choice",
+              "prompt": "Qual solo retém mais água?",
+              "options": [
+                "Argiloso",
+                "Arenoso",
+                "Rochoso"
+              ],
+              "answer": "Argiloso",
+              "hint": "Pense no solo que forma barro.",
+              "explanation": "O solo argiloso retém mais água.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-1-10",
+              "type": "choice",
+              "prompt": "Qual solo retém mais água?",
+              "options": [
+                "Argiloso",
+                "Arenoso",
+                "Rochoso"
+              ],
+              "answer": "Argiloso",
+              "hint": "Pense no solo que forma barro.",
+              "explanation": "O solo argiloso retém mais água.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "cie-animais",
+          "name": "Rota dos Animais",
+          "topic": "Classificação e alimentação",
+          "challenges": [
+            {
+              "id": "cie-2-1",
+              "type": "choice",
+              "prompt": "Como chamamos um Pokémon (ou animal) que come apenas plantas?",
+              "options": [
+                "Herbívoro",
+                "Carnívoro",
+                "Onívoro"
+              ],
+              "answer": "Herbívoro",
+              "hint": "Herba significa planta.",
+              "explanation": "Herbívoros se alimentam de plantas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-2-2",
+              "type": "choice",
+              "prompt": "Como chamamos um Pokémon (ou animal) que come apenas plantas?",
+              "options": [
+                "Herbívoro",
+                "Carnívoro",
+                "Onívoro"
+              ],
+              "answer": "Herbívoro",
+              "hint": "Herba significa planta.",
+              "explanation": "Herbívoros se alimentam de plantas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-2-3",
+              "type": "choice",
+              "prompt": "Como chamamos um Pokémon (ou animal) que come apenas plantas?",
+              "options": [
+                "Herbívoro",
+                "Carnívoro",
+                "Onívoro"
+              ],
+              "answer": "Herbívoro",
+              "hint": "Herba significa planta.",
+              "explanation": "Herbívoros se alimentam de plantas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-2-4",
+              "type": "choice",
+              "prompt": "Como chamamos um Pokémon (ou animal) que come apenas plantas?",
+              "options": [
+                "Herbívoro",
+                "Carnívoro",
+                "Onívoro"
+              ],
+              "answer": "Herbívoro",
+              "hint": "Herba significa planta.",
+              "explanation": "Herbívoros se alimentam de plantas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-2-5",
+              "type": "choice",
+              "prompt": "Como chamamos um Pokémon (ou animal) que come apenas plantas?",
+              "options": [
+                "Herbívoro",
+                "Carnívoro",
+                "Onívoro"
+              ],
+              "answer": "Herbívoro",
+              "hint": "Herba significa planta.",
+              "explanation": "Herbívoros se alimentam de plantas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-2-6",
+              "type": "choice",
+              "prompt": "Como chamamos um Pokémon (ou animal) que come apenas plantas?",
+              "options": [
+                "Herbívoro",
+                "Carnívoro",
+                "Onívoro"
+              ],
+              "answer": "Herbívoro",
+              "hint": "Herba significa planta.",
+              "explanation": "Herbívoros se alimentam de plantas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-2-7",
+              "type": "choice",
+              "prompt": "Como chamamos um Pokémon (ou animal) que come apenas plantas?",
+              "options": [
+                "Herbívoro",
+                "Carnívoro",
+                "Onívoro"
+              ],
+              "answer": "Herbívoro",
+              "hint": "Herba significa planta.",
+              "explanation": "Herbívoros se alimentam de plantas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-2-8",
+              "type": "choice",
+              "prompt": "Como chamamos um Pokémon (ou animal) que come apenas plantas?",
+              "options": [
+                "Herbívoro",
+                "Carnívoro",
+                "Onívoro"
+              ],
+              "answer": "Herbívoro",
+              "hint": "Herba significa planta.",
+              "explanation": "Herbívoros se alimentam de plantas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-2-9",
+              "type": "choice",
+              "prompt": "Como chamamos um Pokémon (ou animal) que come apenas plantas?",
+              "options": [
+                "Herbívoro",
+                "Carnívoro",
+                "Onívoro"
+              ],
+              "answer": "Herbívoro",
+              "hint": "Herba significa planta.",
+              "explanation": "Herbívoros se alimentam de plantas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-2-10",
+              "type": "choice",
+              "prompt": "Como chamamos um Pokémon (ou animal) que come apenas plantas?",
+              "options": [
+                "Herbívoro",
+                "Carnívoro",
+                "Onívoro"
+              ],
+              "answer": "Herbívoro",
+              "hint": "Herba significa planta.",
+              "explanation": "Herbívoros se alimentam de plantas.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "cie-ciclos",
+          "name": "Rota dos Ciclos",
+          "topic": "Grupos e ciclos de vida",
+          "challenges": [
+            {
+              "id": "cie-3-1",
+              "type": "choice",
+              "prompt": "Qual a sequência correta do ciclo da vida de um Pokémon natural?",
+              "options": [
+                "Nascer, crescer, reproduzir, morrer",
+                "Crescer, nascer, morrer, reproduzir",
+                "Morrer, nascer, crescer, reproduzir"
+              ],
+              "answer": "Nascer, crescer, reproduzir, morrer",
+              "hint": "Tudo começa pelo nascimento.",
+              "explanation": "Esta é a sequência natural do ciclo de vida.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-3-2",
+              "type": "choice",
+              "prompt": "Qual a sequência correta do ciclo da vida de um Pokémon natural?",
+              "options": [
+                "Nascer, crescer, reproduzir, morrer",
+                "Crescer, nascer, morrer, reproduzir",
+                "Morrer, nascer, crescer, reproduzir"
+              ],
+              "answer": "Nascer, crescer, reproduzir, morrer",
+              "hint": "Tudo começa pelo nascimento.",
+              "explanation": "Esta é a sequência natural do ciclo de vida.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-3-3",
+              "type": "choice",
+              "prompt": "Qual a sequência correta do ciclo da vida de um Pokémon natural?",
+              "options": [
+                "Nascer, crescer, reproduzir, morrer",
+                "Crescer, nascer, morrer, reproduzir",
+                "Morrer, nascer, crescer, reproduzir"
+              ],
+              "answer": "Nascer, crescer, reproduzir, morrer",
+              "hint": "Tudo começa pelo nascimento.",
+              "explanation": "Esta é a sequência natural do ciclo de vida.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-3-4",
+              "type": "choice",
+              "prompt": "Qual a sequência correta do ciclo da vida de um Pokémon natural?",
+              "options": [
+                "Nascer, crescer, reproduzir, morrer",
+                "Crescer, nascer, morrer, reproduzir",
+                "Morrer, nascer, crescer, reproduzir"
+              ],
+              "answer": "Nascer, crescer, reproduzir, morrer",
+              "hint": "Tudo começa pelo nascimento.",
+              "explanation": "Esta é a sequência natural do ciclo de vida.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-3-5",
+              "type": "choice",
+              "prompt": "Qual a sequência correta do ciclo da vida de um Pokémon natural?",
+              "options": [
+                "Nascer, crescer, reproduzir, morrer",
+                "Crescer, nascer, morrer, reproduzir",
+                "Morrer, nascer, crescer, reproduzir"
+              ],
+              "answer": "Nascer, crescer, reproduzir, morrer",
+              "hint": "Tudo começa pelo nascimento.",
+              "explanation": "Esta é a sequência natural do ciclo de vida.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-3-6",
+              "type": "choice",
+              "prompt": "Qual a sequência correta do ciclo da vida de um Pokémon natural?",
+              "options": [
+                "Nascer, crescer, reproduzir, morrer",
+                "Crescer, nascer, morrer, reproduzir",
+                "Morrer, nascer, crescer, reproduzir"
+              ],
+              "answer": "Nascer, crescer, reproduzir, morrer",
+              "hint": "Tudo começa pelo nascimento.",
+              "explanation": "Esta é a sequência natural do ciclo de vida.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-3-7",
+              "type": "choice",
+              "prompt": "Qual a sequência correta do ciclo da vida de um Pokémon natural?",
+              "options": [
+                "Nascer, crescer, reproduzir, morrer",
+                "Crescer, nascer, morrer, reproduzir",
+                "Morrer, nascer, crescer, reproduzir"
+              ],
+              "answer": "Nascer, crescer, reproduzir, morrer",
+              "hint": "Tudo começa pelo nascimento.",
+              "explanation": "Esta é a sequência natural do ciclo de vida.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-3-8",
+              "type": "choice",
+              "prompt": "Qual a sequência correta do ciclo da vida de um Pokémon natural?",
+              "options": [
+                "Nascer, crescer, reproduzir, morrer",
+                "Crescer, nascer, morrer, reproduzir",
+                "Morrer, nascer, crescer, reproduzir"
+              ],
+              "answer": "Nascer, crescer, reproduzir, morrer",
+              "hint": "Tudo começa pelo nascimento.",
+              "explanation": "Esta é a sequência natural do ciclo de vida.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-3-9",
+              "type": "choice",
+              "prompt": "Qual a sequência correta do ciclo da vida de um Pokémon natural?",
+              "options": [
+                "Nascer, crescer, reproduzir, morrer",
+                "Crescer, nascer, morrer, reproduzir",
+                "Morrer, nascer, crescer, reproduzir"
+              ],
+              "answer": "Nascer, crescer, reproduzir, morrer",
+              "hint": "Tudo começa pelo nascimento.",
+              "explanation": "Esta é a sequência natural do ciclo de vida.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "cie-3-10",
+              "type": "choice",
+              "prompt": "Qual a sequência correta do ciclo da vida de um Pokémon natural?",
+              "options": [
+                "Nascer, crescer, reproduzir, morrer",
+                "Crescer, nascer, morrer, reproduzir",
+                "Morrer, nascer, crescer, reproduzir"
+              ],
+              "answer": "Nascer, crescer, reproduzir, morrer",
+              "hint": "Tudo começa pelo nascimento.",
+              "explanation": "Esta é a sequência natural do ciclo de vida.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historia",
+      "name": "História",
+      "color": "#8b5e3c",
+      "icon": "🏛️",
+      "stations": [
+        {
+          "id": "his-culturas",
+          "name": "Rota das Culturas",
+          "topic": "Heranças culturais",
+          "challenges": [
+            {
+              "id": "his-1-1",
+              "type": "choice",
+              "prompt": "As festas juninas são exemplos de:",
+              "options": [
+                "Herança cultural",
+                "Herança natural",
+                "Herança espacial"
+              ],
+              "answer": "Herança cultural",
+              "hint": "Foi passado de geração em geração.",
+              "explanation": "Festas tradicionais são heranças culturais.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-1-2",
+              "type": "choice",
+              "prompt": "As festas juninas são exemplos de:",
+              "options": [
+                "Herança cultural",
+                "Herança natural",
+                "Herança espacial"
+              ],
+              "answer": "Herança cultural",
+              "hint": "Foi passado de geração em geração.",
+              "explanation": "Festas tradicionais são heranças culturais.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-1-3",
+              "type": "choice",
+              "prompt": "As festas juninas são exemplos de:",
+              "options": [
+                "Herança cultural",
+                "Herança natural",
+                "Herança espacial"
+              ],
+              "answer": "Herança cultural",
+              "hint": "Foi passado de geração em geração.",
+              "explanation": "Festas tradicionais são heranças culturais.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-1-4",
+              "type": "choice",
+              "prompt": "As festas juninas são exemplos de:",
+              "options": [
+                "Herança cultural",
+                "Herança natural",
+                "Herança espacial"
+              ],
+              "answer": "Herança cultural",
+              "hint": "Foi passado de geração em geração.",
+              "explanation": "Festas tradicionais são heranças culturais.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-1-5",
+              "type": "choice",
+              "prompt": "As festas juninas são exemplos de:",
+              "options": [
+                "Herança cultural",
+                "Herança natural",
+                "Herança espacial"
+              ],
+              "answer": "Herança cultural",
+              "hint": "Foi passado de geração em geração.",
+              "explanation": "Festas tradicionais são heranças culturais.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-1-6",
+              "type": "choice",
+              "prompt": "As festas juninas são exemplos de:",
+              "options": [
+                "Herança cultural",
+                "Herança natural",
+                "Herança espacial"
+              ],
+              "answer": "Herança cultural",
+              "hint": "Foi passado de geração em geração.",
+              "explanation": "Festas tradicionais são heranças culturais.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-1-7",
+              "type": "choice",
+              "prompt": "As festas juninas são exemplos de:",
+              "options": [
+                "Herança cultural",
+                "Herança natural",
+                "Herança espacial"
+              ],
+              "answer": "Herança cultural",
+              "hint": "Foi passado de geração em geração.",
+              "explanation": "Festas tradicionais são heranças culturais.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-1-8",
+              "type": "choice",
+              "prompt": "As festas juninas são exemplos de:",
+              "options": [
+                "Herança cultural",
+                "Herança natural",
+                "Herança espacial"
+              ],
+              "answer": "Herança cultural",
+              "hint": "Foi passado de geração em geração.",
+              "explanation": "Festas tradicionais são heranças culturais.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-1-9",
+              "type": "choice",
+              "prompt": "As festas juninas são exemplos de:",
+              "options": [
+                "Herança cultural",
+                "Herança natural",
+                "Herança espacial"
+              ],
+              "answer": "Herança cultural",
+              "hint": "Foi passado de geração em geração.",
+              "explanation": "Festas tradicionais são heranças culturais.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-1-10",
+              "type": "choice",
+              "prompt": "As festas juninas são exemplos de:",
+              "options": [
+                "Herança cultural",
+                "Herança natural",
+                "Herança espacial"
+              ],
+              "answer": "Herança cultural",
+              "hint": "Foi passado de geração em geração.",
+              "explanation": "Festas tradicionais são heranças culturais.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "his-cidade",
+          "name": "Rota da Cidadania",
+          "topic": "Direito à cidade",
+          "challenges": [
+            {
+              "id": "his-2-1",
+              "type": "choice",
+              "prompt": "O direito à cidade significa que:",
+              "options": [
+                "Todos podem usar a cidade",
+                "Só adultos usam a cidade",
+                "Ninguém pode usar a cidade"
+              ],
+              "answer": "Todos podem usar a cidade",
+              "hint": "É um direito de todos.",
+              "explanation": "A cidade deve ser acessível para todas as pessoas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-2-2",
+              "type": "choice",
+              "prompt": "O direito à cidade significa que:",
+              "options": [
+                "Todos podem usar a cidade",
+                "Só adultos usam a cidade",
+                "Ninguém pode usar a cidade"
+              ],
+              "answer": "Todos podem usar a cidade",
+              "hint": "É um direito de todos.",
+              "explanation": "A cidade deve ser acessível para todas as pessoas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-2-3",
+              "type": "choice",
+              "prompt": "O direito à cidade significa que:",
+              "options": [
+                "Todos podem usar a cidade",
+                "Só adultos usam a cidade",
+                "Ninguém pode usar a cidade"
+              ],
+              "answer": "Todos podem usar a cidade",
+              "hint": "É um direito de todos.",
+              "explanation": "A cidade deve ser acessível para todas as pessoas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-2-4",
+              "type": "choice",
+              "prompt": "O direito à cidade significa que:",
+              "options": [
+                "Todos podem usar a cidade",
+                "Só adultos usam a cidade",
+                "Ninguém pode usar a cidade"
+              ],
+              "answer": "Todos podem usar a cidade",
+              "hint": "É um direito de todos.",
+              "explanation": "A cidade deve ser acessível para todas as pessoas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-2-5",
+              "type": "choice",
+              "prompt": "O direito à cidade significa que:",
+              "options": [
+                "Todos podem usar a cidade",
+                "Só adultos usam a cidade",
+                "Ninguém pode usar a cidade"
+              ],
+              "answer": "Todos podem usar a cidade",
+              "hint": "É um direito de todos.",
+              "explanation": "A cidade deve ser acessível para todas as pessoas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-2-6",
+              "type": "choice",
+              "prompt": "O direito à cidade significa que:",
+              "options": [
+                "Todos podem usar a cidade",
+                "Só adultos usam a cidade",
+                "Ninguém pode usar a cidade"
+              ],
+              "answer": "Todos podem usar a cidade",
+              "hint": "É um direito de todos.",
+              "explanation": "A cidade deve ser acessível para todas as pessoas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-2-7",
+              "type": "choice",
+              "prompt": "O direito à cidade significa que:",
+              "options": [
+                "Todos podem usar a cidade",
+                "Só adultos usam a cidade",
+                "Ninguém pode usar a cidade"
+              ],
+              "answer": "Todos podem usar a cidade",
+              "hint": "É um direito de todos.",
+              "explanation": "A cidade deve ser acessível para todas as pessoas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-2-8",
+              "type": "choice",
+              "prompt": "O direito à cidade significa que:",
+              "options": [
+                "Todos podem usar a cidade",
+                "Só adultos usam a cidade",
+                "Ninguém pode usar a cidade"
+              ],
+              "answer": "Todos podem usar a cidade",
+              "hint": "É um direito de todos.",
+              "explanation": "A cidade deve ser acessível para todas as pessoas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-2-9",
+              "type": "choice",
+              "prompt": "O direito à cidade significa que:",
+              "options": [
+                "Todos podem usar a cidade",
+                "Só adultos usam a cidade",
+                "Ninguém pode usar a cidade"
+              ],
+              "answer": "Todos podem usar a cidade",
+              "hint": "É um direito de todos.",
+              "explanation": "A cidade deve ser acessível para todas as pessoas.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-2-10",
+              "type": "choice",
+              "prompt": "O direito à cidade significa que:",
+              "options": [
+                "Todos podem usar a cidade",
+                "Só adultos usam a cidade",
+                "Ninguém pode usar a cidade"
+              ],
+              "answer": "Todos podem usar a cidade",
+              "hint": "É um direito de todos.",
+              "explanation": "A cidade deve ser acessível para todas as pessoas.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "his-publicos",
+          "name": "Rota dos Espaços Públicos",
+          "topic": "Espaços da cidade",
+          "challenges": [
+            {
+              "id": "his-3-1",
+              "type": "choice",
+              "prompt": "Um Centro Pokémon ou uma praça é um espaço:",
+              "options": [
+                "Público",
+                "Privado",
+                "Sideral"
+              ],
+              "answer": "Público",
+              "hint": "Qualquer pessoa pode visitar.",
+              "explanation": "Espaços públicos são abertos para todos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-3-2",
+              "type": "choice",
+              "prompt": "Um Centro Pokémon ou uma praça é um espaço:",
+              "options": [
+                "Público",
+                "Privado",
+                "Sideral"
+              ],
+              "answer": "Público",
+              "hint": "Qualquer pessoa pode visitar.",
+              "explanation": "Espaços públicos são abertos para todos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-3-3",
+              "type": "choice",
+              "prompt": "Um Centro Pokémon ou uma praça é um espaço:",
+              "options": [
+                "Público",
+                "Privado",
+                "Sideral"
+              ],
+              "answer": "Público",
+              "hint": "Qualquer pessoa pode visitar.",
+              "explanation": "Espaços públicos são abertos para todos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-3-4",
+              "type": "choice",
+              "prompt": "Um Centro Pokémon ou uma praça é um espaço:",
+              "options": [
+                "Público",
+                "Privado",
+                "Sideral"
+              ],
+              "answer": "Público",
+              "hint": "Qualquer pessoa pode visitar.",
+              "explanation": "Espaços públicos são abertos para todos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-3-5",
+              "type": "choice",
+              "prompt": "Um Centro Pokémon ou uma praça é um espaço:",
+              "options": [
+                "Público",
+                "Privado",
+                "Sideral"
+              ],
+              "answer": "Público",
+              "hint": "Qualquer pessoa pode visitar.",
+              "explanation": "Espaços públicos são abertos para todos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-3-6",
+              "type": "choice",
+              "prompt": "Um Centro Pokémon ou uma praça é um espaço:",
+              "options": [
+                "Público",
+                "Privado",
+                "Sideral"
+              ],
+              "answer": "Público",
+              "hint": "Qualquer pessoa pode visitar.",
+              "explanation": "Espaços públicos são abertos para todos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-3-7",
+              "type": "choice",
+              "prompt": "Um Centro Pokémon ou uma praça é um espaço:",
+              "options": [
+                "Público",
+                "Privado",
+                "Sideral"
+              ],
+              "answer": "Público",
+              "hint": "Qualquer pessoa pode visitar.",
+              "explanation": "Espaços públicos são abertos para todos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-3-8",
+              "type": "choice",
+              "prompt": "Um Centro Pokémon ou uma praça é um espaço:",
+              "options": [
+                "Público",
+                "Privado",
+                "Sideral"
+              ],
+              "answer": "Público",
+              "hint": "Qualquer pessoa pode visitar.",
+              "explanation": "Espaços públicos são abertos para todos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-3-9",
+              "type": "choice",
+              "prompt": "Um Centro Pokémon ou uma praça é um espaço:",
+              "options": [
+                "Público",
+                "Privado",
+                "Sideral"
+              ],
+              "answer": "Público",
+              "hint": "Qualquer pessoa pode visitar.",
+              "explanation": "Espaços públicos são abertos para todos.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "his-3-10",
+              "type": "choice",
+              "prompt": "Um Centro Pokémon ou uma praça é um espaço:",
+              "options": [
+                "Público",
+                "Privado",
+                "Sideral"
+              ],
+              "answer": "Público",
+              "hint": "Qualquer pessoa pode visitar.",
+              "explanation": "Espaços públicos são abertos para todos.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geografia",
+      "name": "Geografia",
+      "color": "#6a4c93",
+      "icon": "🗺️",
+      "stations": [
+        {
+          "id": "geo-campo",
+          "name": "Rota do Campo",
+          "topic": "Trabalho e produção no campo",
+          "challenges": [
+            {
+              "id": "geo-1-1",
+              "type": "choice",
+              "prompt": "Onde os alimentos como frutas e verduras (ou Berries) são mais plantados?",
+              "options": [
+                "No campo",
+                "Na cidade",
+                "No shopping"
+              ],
+              "answer": "No campo",
+              "hint": "Pense nas fazendas.",
+              "explanation": "A agricultura acontece principalmente no campo.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-1-2",
+              "type": "choice",
+              "prompt": "Onde os alimentos como frutas e verduras (ou Berries) são mais plantados?",
+              "options": [
+                "No campo",
+                "Na cidade",
+                "No shopping"
+              ],
+              "answer": "No campo",
+              "hint": "Pense nas fazendas.",
+              "explanation": "A agricultura acontece principalmente no campo.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-1-3",
+              "type": "choice",
+              "prompt": "Onde os alimentos como frutas e verduras (ou Berries) são mais plantados?",
+              "options": [
+                "No campo",
+                "Na cidade",
+                "No shopping"
+              ],
+              "answer": "No campo",
+              "hint": "Pense nas fazendas.",
+              "explanation": "A agricultura acontece principalmente no campo.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-1-4",
+              "type": "choice",
+              "prompt": "Onde os alimentos como frutas e verduras (ou Berries) são mais plantados?",
+              "options": [
+                "No campo",
+                "Na cidade",
+                "No shopping"
+              ],
+              "answer": "No campo",
+              "hint": "Pense nas fazendas.",
+              "explanation": "A agricultura acontece principalmente no campo.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-1-5",
+              "type": "choice",
+              "prompt": "Onde os alimentos como frutas e verduras (ou Berries) são mais plantados?",
+              "options": [
+                "No campo",
+                "Na cidade",
+                "No shopping"
+              ],
+              "answer": "No campo",
+              "hint": "Pense nas fazendas.",
+              "explanation": "A agricultura acontece principalmente no campo.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-1-6",
+              "type": "choice",
+              "prompt": "Onde os alimentos como frutas e verduras (ou Berries) são mais plantados?",
+              "options": [
+                "No campo",
+                "Na cidade",
+                "No shopping"
+              ],
+              "answer": "No campo",
+              "hint": "Pense nas fazendas.",
+              "explanation": "A agricultura acontece principalmente no campo.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-1-7",
+              "type": "choice",
+              "prompt": "Onde os alimentos como frutas e verduras (ou Berries) são mais plantados?",
+              "options": [
+                "No campo",
+                "Na cidade",
+                "No shopping"
+              ],
+              "answer": "No campo",
+              "hint": "Pense nas fazendas.",
+              "explanation": "A agricultura acontece principalmente no campo.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-1-8",
+              "type": "choice",
+              "prompt": "Onde os alimentos como frutas e verduras (ou Berries) são mais plantados?",
+              "options": [
+                "No campo",
+                "Na cidade",
+                "No shopping"
+              ],
+              "answer": "No campo",
+              "hint": "Pense nas fazendas.",
+              "explanation": "A agricultura acontece principalmente no campo.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-1-9",
+              "type": "choice",
+              "prompt": "Onde os alimentos como frutas e verduras (ou Berries) são mais plantados?",
+              "options": [
+                "No campo",
+                "Na cidade",
+                "No shopping"
+              ],
+              "answer": "No campo",
+              "hint": "Pense nas fazendas.",
+              "explanation": "A agricultura acontece principalmente no campo.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-1-10",
+              "type": "choice",
+              "prompt": "Onde os alimentos como frutas e verduras (ou Berries) são mais plantados?",
+              "options": [
+                "No campo",
+                "Na cidade",
+                "No shopping"
+              ],
+              "answer": "No campo",
+              "hint": "Pense nas fazendas.",
+              "explanation": "A agricultura acontece principalmente no campo.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "geo-paisagem",
+          "name": "Rota da Paisagem",
+          "topic": "Mudanças e permanências",
+          "challenges": [
+            {
+              "id": "geo-2-1",
+              "type": "choice",
+              "prompt": "Quando construímos um Ginásio em um terreno vazio, ocorre uma:",
+              "options": [
+                "Mudança na paisagem",
+                "Permanência na paisagem",
+                "Festa na cidade"
+              ],
+              "answer": "Mudança na paisagem",
+              "hint": "O visual do lugar foi alterado.",
+              "explanation": "Construções mudam a paisagem.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-2-2",
+              "type": "choice",
+              "prompt": "Quando construímos um Ginásio em um terreno vazio, ocorre uma:",
+              "options": [
+                "Mudança na paisagem",
+                "Permanência na paisagem",
+                "Festa na cidade"
+              ],
+              "answer": "Mudança na paisagem",
+              "hint": "O visual do lugar foi alterado.",
+              "explanation": "Construções mudam a paisagem.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-2-3",
+              "type": "choice",
+              "prompt": "Quando construímos um Ginásio em um terreno vazio, ocorre uma:",
+              "options": [
+                "Mudança na paisagem",
+                "Permanência na paisagem",
+                "Festa na cidade"
+              ],
+              "answer": "Mudança na paisagem",
+              "hint": "O visual do lugar foi alterado.",
+              "explanation": "Construções mudam a paisagem.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-2-4",
+              "type": "choice",
+              "prompt": "Quando construímos um Ginásio em um terreno vazio, ocorre uma:",
+              "options": [
+                "Mudança na paisagem",
+                "Permanência na paisagem",
+                "Festa na cidade"
+              ],
+              "answer": "Mudança na paisagem",
+              "hint": "O visual do lugar foi alterado.",
+              "explanation": "Construções mudam a paisagem.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-2-5",
+              "type": "choice",
+              "prompt": "Quando construímos um Ginásio em um terreno vazio, ocorre uma:",
+              "options": [
+                "Mudança na paisagem",
+                "Permanência na paisagem",
+                "Festa na cidade"
+              ],
+              "answer": "Mudança na paisagem",
+              "hint": "O visual do lugar foi alterado.",
+              "explanation": "Construções mudam a paisagem.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-2-6",
+              "type": "choice",
+              "prompt": "Quando construímos um Ginásio em um terreno vazio, ocorre uma:",
+              "options": [
+                "Mudança na paisagem",
+                "Permanência na paisagem",
+                "Festa na cidade"
+              ],
+              "answer": "Mudança na paisagem",
+              "hint": "O visual do lugar foi alterado.",
+              "explanation": "Construções mudam a paisagem.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-2-7",
+              "type": "choice",
+              "prompt": "Quando construímos um Ginásio em um terreno vazio, ocorre uma:",
+              "options": [
+                "Mudança na paisagem",
+                "Permanência na paisagem",
+                "Festa na cidade"
+              ],
+              "answer": "Mudança na paisagem",
+              "hint": "O visual do lugar foi alterado.",
+              "explanation": "Construções mudam a paisagem.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-2-8",
+              "type": "choice",
+              "prompt": "Quando construímos um Ginásio em um terreno vazio, ocorre uma:",
+              "options": [
+                "Mudança na paisagem",
+                "Permanência na paisagem",
+                "Festa na cidade"
+              ],
+              "answer": "Mudança na paisagem",
+              "hint": "O visual do lugar foi alterado.",
+              "explanation": "Construções mudam a paisagem.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-2-9",
+              "type": "choice",
+              "prompt": "Quando construímos um Ginásio em um terreno vazio, ocorre uma:",
+              "options": [
+                "Mudança na paisagem",
+                "Permanência na paisagem",
+                "Festa na cidade"
+              ],
+              "answer": "Mudança na paisagem",
+              "hint": "O visual do lugar foi alterado.",
+              "explanation": "Construções mudam a paisagem.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-2-10",
+              "type": "choice",
+              "prompt": "Quando construímos um Ginásio em um terreno vazio, ocorre uma:",
+              "options": [
+                "Mudança na paisagem",
+                "Permanência na paisagem",
+                "Festa na cidade"
+              ],
+              "answer": "Mudança na paisagem",
+              "hint": "O visual do lugar foi alterado.",
+              "explanation": "Construções mudam a paisagem.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "geo-cidade",
+          "name": "Rota Cidade Viva",
+          "topic": "A cidade também é feita disso",
+          "challenges": [
+            {
+              "id": "geo-3-1",
+              "type": "choice",
+              "prompt": "Uma cidade é formada por prédios, ruas e:",
+              "options": [
+                "Pessoas e suas relações",
+                "Apenas carros",
+                "Apenas máquinas"
+              ],
+              "answer": "Pessoas e suas relações",
+              "hint": "Quem mora na cidade?",
+              "explanation": "As pessoas e o que elas fazem dão vida à cidade.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-3-2",
+              "type": "choice",
+              "prompt": "Uma cidade é formada por prédios, ruas e:",
+              "options": [
+                "Pessoas e suas relações",
+                "Apenas carros",
+                "Apenas máquinas"
+              ],
+              "answer": "Pessoas e suas relações",
+              "hint": "Quem mora na cidade?",
+              "explanation": "As pessoas e o que elas fazem dão vida à cidade.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-3-3",
+              "type": "choice",
+              "prompt": "Uma cidade é formada por prédios, ruas e:",
+              "options": [
+                "Pessoas e suas relações",
+                "Apenas carros",
+                "Apenas máquinas"
+              ],
+              "answer": "Pessoas e suas relações",
+              "hint": "Quem mora na cidade?",
+              "explanation": "As pessoas e o que elas fazem dão vida à cidade.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-3-4",
+              "type": "choice",
+              "prompt": "Uma cidade é formada por prédios, ruas e:",
+              "options": [
+                "Pessoas e suas relações",
+                "Apenas carros",
+                "Apenas máquinas"
+              ],
+              "answer": "Pessoas e suas relações",
+              "hint": "Quem mora na cidade?",
+              "explanation": "As pessoas e o que elas fazem dão vida à cidade.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-3-5",
+              "type": "choice",
+              "prompt": "Uma cidade é formada por prédios, ruas e:",
+              "options": [
+                "Pessoas e suas relações",
+                "Apenas carros",
+                "Apenas máquinas"
+              ],
+              "answer": "Pessoas e suas relações",
+              "hint": "Quem mora na cidade?",
+              "explanation": "As pessoas e o que elas fazem dão vida à cidade.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-3-6",
+              "type": "choice",
+              "prompt": "Uma cidade é formada por prédios, ruas e:",
+              "options": [
+                "Pessoas e suas relações",
+                "Apenas carros",
+                "Apenas máquinas"
+              ],
+              "answer": "Pessoas e suas relações",
+              "hint": "Quem mora na cidade?",
+              "explanation": "As pessoas e o que elas fazem dão vida à cidade.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-3-7",
+              "type": "choice",
+              "prompt": "Uma cidade é formada por prédios, ruas e:",
+              "options": [
+                "Pessoas e suas relações",
+                "Apenas carros",
+                "Apenas máquinas"
+              ],
+              "answer": "Pessoas e suas relações",
+              "hint": "Quem mora na cidade?",
+              "explanation": "As pessoas e o que elas fazem dão vida à cidade.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-3-8",
+              "type": "choice",
+              "prompt": "Uma cidade é formada por prédios, ruas e:",
+              "options": [
+                "Pessoas e suas relações",
+                "Apenas carros",
+                "Apenas máquinas"
+              ],
+              "answer": "Pessoas e suas relações",
+              "hint": "Quem mora na cidade?",
+              "explanation": "As pessoas e o que elas fazem dão vida à cidade.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-3-9",
+              "type": "choice",
+              "prompt": "Uma cidade é formada por prédios, ruas e:",
+              "options": [
+                "Pessoas e suas relações",
+                "Apenas carros",
+                "Apenas máquinas"
+              ],
+              "answer": "Pessoas e suas relações",
+              "hint": "Quem mora na cidade?",
+              "explanation": "As pessoas e o que elas fazem dão vida à cidade.",
+              "language": "pt-BR",
+              "approved": true
+            },
+            {
+              "id": "geo-3-10",
+              "type": "choice",
+              "prompt": "Uma cidade é formada por prédios, ruas e:",
+              "options": [
+                "Pessoas e suas relações",
+                "Apenas carros",
+                "Apenas máquinas"
+              ],
+              "answer": "Pessoas e suas relações",
+              "hint": "Quem mora na cidade?",
+              "explanation": "As pessoas e o que elas fazem dão vida à cidade.",
+              "language": "pt-BR",
+              "approved": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "espanhol",
+      "name": "Espanhol",
+      "color": "#f4b400",
+      "icon": "⭐",
+      "stations": [
+        {
+          "id": "esp-ropa",
+          "name": "Ruta de la Ropa",
+          "topic": "Prendas de vestir",
+          "challenges": [
+            {
+              "id": "esp-1-1",
+              "type": "choice",
+              "prompt": "¿Qué prenda usamos en las piernas?",
+              "options": [
+                "Pantalón",
+                "Camiseta",
+                "Gorro"
+              ],
+              "answer": "Pantalón",
+              "hint": "Cobre as pernas.",
+              "explanation": "Pantalón significa calça.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-1-2",
+              "type": "choice",
+              "prompt": "¿Qué prenda usamos en las piernas?",
+              "options": [
+                "Pantalón",
+                "Camiseta",
+                "Gorro"
+              ],
+              "answer": "Pantalón",
+              "hint": "Cobre as pernas.",
+              "explanation": "Pantalón significa calça.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-1-3",
+              "type": "choice",
+              "prompt": "¿Qué prenda usamos en las piernas?",
+              "options": [
+                "Pantalón",
+                "Camiseta",
+                "Gorro"
+              ],
+              "answer": "Pantalón",
+              "hint": "Cobre as pernas.",
+              "explanation": "Pantalón significa calça.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-1-4",
+              "type": "choice",
+              "prompt": "¿Qué prenda usamos en las piernas?",
+              "options": [
+                "Pantalón",
+                "Camiseta",
+                "Gorro"
+              ],
+              "answer": "Pantalón",
+              "hint": "Cobre as pernas.",
+              "explanation": "Pantalón significa calça.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-1-5",
+              "type": "choice",
+              "prompt": "¿Qué prenda usamos en las piernas?",
+              "options": [
+                "Pantalón",
+                "Camiseta",
+                "Gorro"
+              ],
+              "answer": "Pantalón",
+              "hint": "Cobre as pernas.",
+              "explanation": "Pantalón significa calça.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-1-6",
+              "type": "choice",
+              "prompt": "¿Qué prenda usamos en las piernas?",
+              "options": [
+                "Pantalón",
+                "Camiseta",
+                "Gorro"
+              ],
+              "answer": "Pantalón",
+              "hint": "Cobre as pernas.",
+              "explanation": "Pantalón significa calça.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-1-7",
+              "type": "choice",
+              "prompt": "¿Qué prenda usamos en las piernas?",
+              "options": [
+                "Pantalón",
+                "Camiseta",
+                "Gorro"
+              ],
+              "answer": "Pantalón",
+              "hint": "Cobre as pernas.",
+              "explanation": "Pantalón significa calça.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-1-8",
+              "type": "choice",
+              "prompt": "¿Qué prenda usamos en las piernas?",
+              "options": [
+                "Pantalón",
+                "Camiseta",
+                "Gorro"
+              ],
+              "answer": "Pantalón",
+              "hint": "Cobre as pernas.",
+              "explanation": "Pantalón significa calça.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-1-9",
+              "type": "choice",
+              "prompt": "¿Qué prenda usamos en las piernas?",
+              "options": [
+                "Pantalón",
+                "Camiseta",
+                "Gorro"
+              ],
+              "answer": "Pantalón",
+              "hint": "Cobre as pernas.",
+              "explanation": "Pantalón significa calça.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-1-10",
+              "type": "choice",
+              "prompt": "¿Qué prenda usamos en las piernas?",
+              "options": [
+                "Pantalón",
+                "Camiseta",
+                "Gorro"
+              ],
+              "answer": "Pantalón",
+              "hint": "Cobre as pernas.",
+              "explanation": "Pantalón significa calça.",
+              "language": "es-ES",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "esp-describir",
+          "name": "Ruta de Describir",
+          "topic": "Descrever roupas",
+          "challenges": [
+            {
+              "id": "esp-2-1",
+              "type": "choice",
+              "prompt": "¿Cómo se dice 'camisa vermelha' en español?",
+              "options": [
+                "Camiseta roja",
+                "Camiseta verde",
+                "Camiseta azul"
+              ],
+              "answer": "Camiseta roja",
+              "hint": "Rojo é vermelho.",
+              "explanation": "Roja é a cor vermelha en español.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-2-2",
+              "type": "choice",
+              "prompt": "¿Cómo se dice 'camisa vermelha' en español?",
+              "options": [
+                "Camiseta roja",
+                "Camiseta verde",
+                "Camiseta azul"
+              ],
+              "answer": "Camiseta roja",
+              "hint": "Rojo é vermelho.",
+              "explanation": "Roja é a cor vermelha en español.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-2-3",
+              "type": "choice",
+              "prompt": "¿Cómo se dice 'camisa vermelha' en español?",
+              "options": [
+                "Camiseta roja",
+                "Camiseta verde",
+                "Camiseta azul"
+              ],
+              "answer": "Camiseta roja",
+              "hint": "Rojo é vermelho.",
+              "explanation": "Roja é a cor vermelha en español.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-2-4",
+              "type": "choice",
+              "prompt": "¿Cómo se dice 'camisa vermelha' en español?",
+              "options": [
+                "Camiseta roja",
+                "Camiseta verde",
+                "Camiseta azul"
+              ],
+              "answer": "Camiseta roja",
+              "hint": "Rojo é vermelho.",
+              "explanation": "Roja é a cor vermelha en español.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-2-5",
+              "type": "choice",
+              "prompt": "¿Cómo se dice 'camisa vermelha' en español?",
+              "options": [
+                "Camiseta roja",
+                "Camiseta verde",
+                "Camiseta azul"
+              ],
+              "answer": "Camiseta roja",
+              "hint": "Rojo é vermelho.",
+              "explanation": "Roja é a cor vermelha en español.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-2-6",
+              "type": "choice",
+              "prompt": "¿Cómo se dice 'camisa vermelha' en español?",
+              "options": [
+                "Camiseta roja",
+                "Camiseta verde",
+                "Camiseta azul"
+              ],
+              "answer": "Camiseta roja",
+              "hint": "Rojo é vermelho.",
+              "explanation": "Roja é a cor vermelha en español.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-2-7",
+              "type": "choice",
+              "prompt": "¿Cómo se dice 'camisa vermelha' en español?",
+              "options": [
+                "Camiseta roja",
+                "Camiseta verde",
+                "Camiseta azul"
+              ],
+              "answer": "Camiseta roja",
+              "hint": "Rojo é vermelho.",
+              "explanation": "Roja é a cor vermelha en español.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-2-8",
+              "type": "choice",
+              "prompt": "¿Cómo se dice 'camisa vermelha' en español?",
+              "options": [
+                "Camiseta roja",
+                "Camiseta verde",
+                "Camiseta azul"
+              ],
+              "answer": "Camiseta roja",
+              "hint": "Rojo é vermelho.",
+              "explanation": "Roja é a cor vermelha en español.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-2-9",
+              "type": "choice",
+              "prompt": "¿Cómo se dice 'camisa vermelha' en español?",
+              "options": [
+                "Camiseta roja",
+                "Camiseta verde",
+                "Camiseta azul"
+              ],
+              "answer": "Camiseta roja",
+              "hint": "Rojo é vermelho.",
+              "explanation": "Roja é a cor vermelha en español.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-2-10",
+              "type": "choice",
+              "prompt": "¿Cómo se dice 'camisa vermelha' en español?",
+              "options": [
+                "Camiseta roja",
+                "Camiseta verde",
+                "Camiseta azul"
+              ],
+              "answer": "Camiseta roja",
+              "hint": "Rojo é vermelho.",
+              "explanation": "Roja é a cor vermelha en español.",
+              "language": "es-ES",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "esp-posesivos",
+          "name": "Ruta Posesiva",
+          "topic": "Pronomes possessivos",
+          "challenges": [
+            {
+              "id": "esp-3-1",
+              "type": "choice",
+              "prompt": "Completa: ___ zapatos (meus sapatos).",
+              "options": [
+                "Mis",
+                "Tus",
+                "Sus"
+              ],
+              "answer": "Mis",
+              "hint": "Meus en español.",
+              "explanation": "Mis significa meus.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-3-2",
+              "type": "choice",
+              "prompt": "Completa: ___ zapatos (meus sapatos).",
+              "options": [
+                "Mis",
+                "Tus",
+                "Sus"
+              ],
+              "answer": "Mis",
+              "hint": "Meus en español.",
+              "explanation": "Mis significa meus.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-3-3",
+              "type": "choice",
+              "prompt": "Completa: ___ zapatos (meus sapatos).",
+              "options": [
+                "Mis",
+                "Tus",
+                "Sus"
+              ],
+              "answer": "Mis",
+              "hint": "Meus en español.",
+              "explanation": "Mis significa meus.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-3-4",
+              "type": "choice",
+              "prompt": "Completa: ___ zapatos (meus sapatos).",
+              "options": [
+                "Mis",
+                "Tus",
+                "Sus"
+              ],
+              "answer": "Mis",
+              "hint": "Meus en español.",
+              "explanation": "Mis significa meus.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-3-5",
+              "type": "choice",
+              "prompt": "Completa: ___ zapatos (meus sapatos).",
+              "options": [
+                "Mis",
+                "Tus",
+                "Sus"
+              ],
+              "answer": "Mis",
+              "hint": "Meus en español.",
+              "explanation": "Mis significa meus.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-3-6",
+              "type": "choice",
+              "prompt": "Completa: ___ zapatos (meus sapatos).",
+              "options": [
+                "Mis",
+                "Tus",
+                "Sus"
+              ],
+              "answer": "Mis",
+              "hint": "Meus en español.",
+              "explanation": "Mis significa meus.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-3-7",
+              "type": "choice",
+              "prompt": "Completa: ___ zapatos (meus sapatos).",
+              "options": [
+                "Mis",
+                "Tus",
+                "Sus"
+              ],
+              "answer": "Mis",
+              "hint": "Meus en español.",
+              "explanation": "Mis significa meus.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-3-8",
+              "type": "choice",
+              "prompt": "Completa: ___ zapatos (meus sapatos).",
+              "options": [
+                "Mis",
+                "Tus",
+                "Sus"
+              ],
+              "answer": "Mis",
+              "hint": "Meus en español.",
+              "explanation": "Mis significa meus.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-3-9",
+              "type": "choice",
+              "prompt": "Completa: ___ zapatos (meus sapatos).",
+              "options": [
+                "Mis",
+                "Tus",
+                "Sus"
+              ],
+              "answer": "Mis",
+              "hint": "Meus en español.",
+              "explanation": "Mis significa meus.",
+              "language": "es-ES",
+              "approved": true
+            },
+            {
+              "id": "esp-3-10",
+              "type": "choice",
+              "prompt": "Completa: ___ zapatos (meus sapatos).",
+              "options": [
+                "Mis",
+                "Tus",
+                "Sus"
+              ],
+              "answer": "Mis",
+              "hint": "Meus en español.",
+              "explanation": "Mis significa meus.",
+              "language": "es-ES",
+              "approved": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ingles",
+      "name": "Inglês",
+      "color": "#1677bd",
+      "icon": "🎵",
+      "stations": [
+        {
+          "id": "ing-home",
+          "name": "Home Route",
+          "topic": "Physical characteristics and household machines",
+          "challenges": [
+            {
+              "id": "ing-1-1",
+              "type": "choice",
+              "prompt": "Which machine is used to wash clothes?",
+              "options": [
+                "Washing machine",
+                "Fridge",
+                "Oven"
+              ],
+              "answer": "Washing machine",
+              "hint": "It washes.",
+              "explanation": "A washing machine washes clothes.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-1-2",
+              "type": "choice",
+              "prompt": "Which machine is used to wash clothes?",
+              "options": [
+                "Washing machine",
+                "Fridge",
+                "Oven"
+              ],
+              "answer": "Washing machine",
+              "hint": "It washes.",
+              "explanation": "A washing machine washes clothes.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-1-3",
+              "type": "choice",
+              "prompt": "Which machine is used to wash clothes?",
+              "options": [
+                "Washing machine",
+                "Fridge",
+                "Oven"
+              ],
+              "answer": "Washing machine",
+              "hint": "It washes.",
+              "explanation": "A washing machine washes clothes.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-1-4",
+              "type": "choice",
+              "prompt": "Which machine is used to wash clothes?",
+              "options": [
+                "Washing machine",
+                "Fridge",
+                "Oven"
+              ],
+              "answer": "Washing machine",
+              "hint": "It washes.",
+              "explanation": "A washing machine washes clothes.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-1-5",
+              "type": "choice",
+              "prompt": "Which machine is used to wash clothes?",
+              "options": [
+                "Washing machine",
+                "Fridge",
+                "Oven"
+              ],
+              "answer": "Washing machine",
+              "hint": "It washes.",
+              "explanation": "A washing machine washes clothes.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-1-6",
+              "type": "choice",
+              "prompt": "Which machine is used to wash clothes?",
+              "options": [
+                "Washing machine",
+                "Fridge",
+                "Oven"
+              ],
+              "answer": "Washing machine",
+              "hint": "It washes.",
+              "explanation": "A washing machine washes clothes.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-1-7",
+              "type": "choice",
+              "prompt": "Which machine is used to wash clothes?",
+              "options": [
+                "Washing machine",
+                "Fridge",
+                "Oven"
+              ],
+              "answer": "Washing machine",
+              "hint": "It washes.",
+              "explanation": "A washing machine washes clothes.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-1-8",
+              "type": "choice",
+              "prompt": "Which machine is used to wash clothes?",
+              "options": [
+                "Washing machine",
+                "Fridge",
+                "Oven"
+              ],
+              "answer": "Washing machine",
+              "hint": "It washes.",
+              "explanation": "A washing machine washes clothes.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-1-9",
+              "type": "choice",
+              "prompt": "Which machine is used to wash clothes?",
+              "options": [
+                "Washing machine",
+                "Fridge",
+                "Oven"
+              ],
+              "answer": "Washing machine",
+              "hint": "It washes.",
+              "explanation": "A washing machine washes clothes.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-1-10",
+              "type": "choice",
+              "prompt": "Which machine is used to wash clothes?",
+              "options": [
+                "Washing machine",
+                "Fridge",
+                "Oven"
+              ],
+              "answer": "Washing machine",
+              "hint": "It washes.",
+              "explanation": "A washing machine washes clothes.",
+              "language": "en-US",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "ing-animals",
+          "name": "Animal Route",
+          "topic": "Wild and domestic animals",
+          "challenges": [
+            {
+              "id": "ing-2-1",
+              "type": "choice",
+              "prompt": "Which of these is a wild animal?",
+              "options": [
+                "Lion",
+                "Dog",
+                "Cat"
+              ],
+              "answer": "Lion",
+              "hint": "It lives in the jungle or savanna.",
+              "explanation": "Lions are wild animals.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-2-2",
+              "type": "choice",
+              "prompt": "Which of these is a wild animal?",
+              "options": [
+                "Lion",
+                "Dog",
+                "Cat"
+              ],
+              "answer": "Lion",
+              "hint": "It lives in the jungle or savanna.",
+              "explanation": "Lions are wild animals.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-2-3",
+              "type": "choice",
+              "prompt": "Which of these is a wild animal?",
+              "options": [
+                "Lion",
+                "Dog",
+                "Cat"
+              ],
+              "answer": "Lion",
+              "hint": "It lives in the jungle or savanna.",
+              "explanation": "Lions are wild animals.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-2-4",
+              "type": "choice",
+              "prompt": "Which of these is a wild animal?",
+              "options": [
+                "Lion",
+                "Dog",
+                "Cat"
+              ],
+              "answer": "Lion",
+              "hint": "It lives in the jungle or savanna.",
+              "explanation": "Lions are wild animals.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-2-5",
+              "type": "choice",
+              "prompt": "Which of these is a wild animal?",
+              "options": [
+                "Lion",
+                "Dog",
+                "Cat"
+              ],
+              "answer": "Lion",
+              "hint": "It lives in the jungle or savanna.",
+              "explanation": "Lions are wild animals.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-2-6",
+              "type": "choice",
+              "prompt": "Which of these is a wild animal?",
+              "options": [
+                "Lion",
+                "Dog",
+                "Cat"
+              ],
+              "answer": "Lion",
+              "hint": "It lives in the jungle or savanna.",
+              "explanation": "Lions are wild animals.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-2-7",
+              "type": "choice",
+              "prompt": "Which of these is a wild animal?",
+              "options": [
+                "Lion",
+                "Dog",
+                "Cat"
+              ],
+              "answer": "Lion",
+              "hint": "It lives in the jungle or savanna.",
+              "explanation": "Lions are wild animals.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-2-8",
+              "type": "choice",
+              "prompt": "Which of these is a wild animal?",
+              "options": [
+                "Lion",
+                "Dog",
+                "Cat"
+              ],
+              "answer": "Lion",
+              "hint": "It lives in the jungle or savanna.",
+              "explanation": "Lions are wild animals.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-2-9",
+              "type": "choice",
+              "prompt": "Which of these is a wild animal?",
+              "options": [
+                "Lion",
+                "Dog",
+                "Cat"
+              ],
+              "answer": "Lion",
+              "hint": "It lives in the jungle or savanna.",
+              "explanation": "Lions are wild animals.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-2-10",
+              "type": "choice",
+              "prompt": "Which of these is a wild animal?",
+              "options": [
+                "Lion",
+                "Dog",
+                "Cat"
+              ],
+              "answer": "Lion",
+              "hint": "It lives in the jungle or savanna.",
+              "explanation": "Lions are wild animals.",
+              "language": "en-US",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "ing-actions",
+          "name": "Action Route",
+          "topic": "Superlatives and animal actions",
+          "challenges": [
+            {
+              "id": "ing-3-1",
+              "type": "choice",
+              "prompt": "The cheetah is the _____ animal.",
+              "options": [
+                "fastest",
+                "slowest",
+                "biggest"
+              ],
+              "answer": "fastest",
+              "hint": "It runs very fast.",
+              "explanation": "Fastest is the superlative for fast.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-3-2",
+              "type": "choice",
+              "prompt": "The cheetah is the _____ animal.",
+              "options": [
+                "fastest",
+                "slowest",
+                "biggest"
+              ],
+              "answer": "fastest",
+              "hint": "It runs very fast.",
+              "explanation": "Fastest is the superlative for fast.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-3-3",
+              "type": "choice",
+              "prompt": "The cheetah is the _____ animal.",
+              "options": [
+                "fastest",
+                "slowest",
+                "biggest"
+              ],
+              "answer": "fastest",
+              "hint": "It runs very fast.",
+              "explanation": "Fastest is the superlative for fast.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-3-4",
+              "type": "choice",
+              "prompt": "The cheetah is the _____ animal.",
+              "options": [
+                "fastest",
+                "slowest",
+                "biggest"
+              ],
+              "answer": "fastest",
+              "hint": "It runs very fast.",
+              "explanation": "Fastest is the superlative for fast.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-3-5",
+              "type": "choice",
+              "prompt": "The cheetah is the _____ animal.",
+              "options": [
+                "fastest",
+                "slowest",
+                "biggest"
+              ],
+              "answer": "fastest",
+              "hint": "It runs very fast.",
+              "explanation": "Fastest is the superlative for fast.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-3-6",
+              "type": "choice",
+              "prompt": "The cheetah is the _____ animal.",
+              "options": [
+                "fastest",
+                "slowest",
+                "biggest"
+              ],
+              "answer": "fastest",
+              "hint": "It runs very fast.",
+              "explanation": "Fastest is the superlative for fast.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-3-7",
+              "type": "choice",
+              "prompt": "The cheetah is the _____ animal.",
+              "options": [
+                "fastest",
+                "slowest",
+                "biggest"
+              ],
+              "answer": "fastest",
+              "hint": "It runs very fast.",
+              "explanation": "Fastest is the superlative for fast.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-3-8",
+              "type": "choice",
+              "prompt": "The cheetah is the _____ animal.",
+              "options": [
+                "fastest",
+                "slowest",
+                "biggest"
+              ],
+              "answer": "fastest",
+              "hint": "It runs very fast.",
+              "explanation": "Fastest is the superlative for fast.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-3-9",
+              "type": "choice",
+              "prompt": "The cheetah is the _____ animal.",
+              "options": [
+                "fastest",
+                "slowest",
+                "biggest"
+              ],
+              "answer": "fastest",
+              "hint": "It runs very fast.",
+              "explanation": "Fastest is the superlative for fast.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "ing-3-10",
+              "type": "choice",
+              "prompt": "The cheetah is the _____ animal.",
+              "options": [
+                "fastest",
+                "slowest",
+                "biggest"
+              ],
+              "answer": "fastest",
+              "hint": "It runs very fast.",
+              "explanation": "Fastest is the superlative for fast.",
+              "language": "en-US",
+              "approved": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mooney",
+      "name": "Mooney",
+      "color": "#d45087",
+      "icon": "🤝",
+      "stations": [
+        {
+          "id": "moo-culture",
+          "name": "Cultural Route",
+          "topic": "Tangible and intangible culture",
+          "challenges": [
+            {
+              "id": "moo-1-1",
+              "type": "choice",
+              "prompt": "A traditional dance is an example of:",
+              "options": [
+                "Intangible culture",
+                "Tangible culture",
+                "Money"
+              ],
+              "answer": "Intangible culture",
+              "hint": "You can't touch a dance.",
+              "explanation": "Dances are intangible cultural goods.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-1-2",
+              "type": "choice",
+              "prompt": "A traditional dance is an example of:",
+              "options": [
+                "Intangible culture",
+                "Tangible culture",
+                "Money"
+              ],
+              "answer": "Intangible culture",
+              "hint": "You can't touch a dance.",
+              "explanation": "Dances are intangible cultural goods.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-1-3",
+              "type": "choice",
+              "prompt": "A traditional dance is an example of:",
+              "options": [
+                "Intangible culture",
+                "Tangible culture",
+                "Money"
+              ],
+              "answer": "Intangible culture",
+              "hint": "You can't touch a dance.",
+              "explanation": "Dances are intangible cultural goods.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-1-4",
+              "type": "choice",
+              "prompt": "A traditional dance is an example of:",
+              "options": [
+                "Intangible culture",
+                "Tangible culture",
+                "Money"
+              ],
+              "answer": "Intangible culture",
+              "hint": "You can't touch a dance.",
+              "explanation": "Dances are intangible cultural goods.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-1-5",
+              "type": "choice",
+              "prompt": "A traditional dance is an example of:",
+              "options": [
+                "Intangible culture",
+                "Tangible culture",
+                "Money"
+              ],
+              "answer": "Intangible culture",
+              "hint": "You can't touch a dance.",
+              "explanation": "Dances are intangible cultural goods.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-1-6",
+              "type": "choice",
+              "prompt": "A traditional dance is an example of:",
+              "options": [
+                "Intangible culture",
+                "Tangible culture",
+                "Money"
+              ],
+              "answer": "Intangible culture",
+              "hint": "You can't touch a dance.",
+              "explanation": "Dances are intangible cultural goods.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-1-7",
+              "type": "choice",
+              "prompt": "A traditional dance is an example of:",
+              "options": [
+                "Intangible culture",
+                "Tangible culture",
+                "Money"
+              ],
+              "answer": "Intangible culture",
+              "hint": "You can't touch a dance.",
+              "explanation": "Dances are intangible cultural goods.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-1-8",
+              "type": "choice",
+              "prompt": "A traditional dance is an example of:",
+              "options": [
+                "Intangible culture",
+                "Tangible culture",
+                "Money"
+              ],
+              "answer": "Intangible culture",
+              "hint": "You can't touch a dance.",
+              "explanation": "Dances are intangible cultural goods.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-1-9",
+              "type": "choice",
+              "prompt": "A traditional dance is an example of:",
+              "options": [
+                "Intangible culture",
+                "Tangible culture",
+                "Money"
+              ],
+              "answer": "Intangible culture",
+              "hint": "You can't touch a dance.",
+              "explanation": "Dances are intangible cultural goods.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-1-10",
+              "type": "choice",
+              "prompt": "A traditional dance is an example of:",
+              "options": [
+                "Intangible culture",
+                "Tangible culture",
+                "Money"
+              ],
+              "answer": "Intangible culture",
+              "hint": "You can't touch a dance.",
+              "explanation": "Dances are intangible cultural goods.",
+              "language": "en-US",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "moo-home",
+          "name": "Homework Route",
+          "topic": "Household chores",
+          "challenges": [
+            {
+              "id": "moo-2-1",
+              "type": "choice",
+              "prompt": "Which is a good chore to help at home?",
+              "options": [
+                "Sweeping the floor",
+                "Breaking toys",
+                "Making a mess"
+              ],
+              "answer": "Sweeping the floor",
+              "hint": "It keeps the house clean.",
+              "explanation": "Sweeping is a household chore.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-2-2",
+              "type": "choice",
+              "prompt": "Which is a good chore to help at home?",
+              "options": [
+                "Sweeping the floor",
+                "Breaking toys",
+                "Making a mess"
+              ],
+              "answer": "Sweeping the floor",
+              "hint": "It keeps the house clean.",
+              "explanation": "Sweeping is a household chore.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-2-3",
+              "type": "choice",
+              "prompt": "Which is a good chore to help at home?",
+              "options": [
+                "Sweeping the floor",
+                "Breaking toys",
+                "Making a mess"
+              ],
+              "answer": "Sweeping the floor",
+              "hint": "It keeps the house clean.",
+              "explanation": "Sweeping is a household chore.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-2-4",
+              "type": "choice",
+              "prompt": "Which is a good chore to help at home?",
+              "options": [
+                "Sweeping the floor",
+                "Breaking toys",
+                "Making a mess"
+              ],
+              "answer": "Sweeping the floor",
+              "hint": "It keeps the house clean.",
+              "explanation": "Sweeping is a household chore.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-2-5",
+              "type": "choice",
+              "prompt": "Which is a good chore to help at home?",
+              "options": [
+                "Sweeping the floor",
+                "Breaking toys",
+                "Making a mess"
+              ],
+              "answer": "Sweeping the floor",
+              "hint": "It keeps the house clean.",
+              "explanation": "Sweeping is a household chore.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-2-6",
+              "type": "choice",
+              "prompt": "Which is a good chore to help at home?",
+              "options": [
+                "Sweeping the floor",
+                "Breaking toys",
+                "Making a mess"
+              ],
+              "answer": "Sweeping the floor",
+              "hint": "It keeps the house clean.",
+              "explanation": "Sweeping is a household chore.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-2-7",
+              "type": "choice",
+              "prompt": "Which is a good chore to help at home?",
+              "options": [
+                "Sweeping the floor",
+                "Breaking toys",
+                "Making a mess"
+              ],
+              "answer": "Sweeping the floor",
+              "hint": "It keeps the house clean.",
+              "explanation": "Sweeping is a household chore.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-2-8",
+              "type": "choice",
+              "prompt": "Which is a good chore to help at home?",
+              "options": [
+                "Sweeping the floor",
+                "Breaking toys",
+                "Making a mess"
+              ],
+              "answer": "Sweeping the floor",
+              "hint": "It keeps the house clean.",
+              "explanation": "Sweeping is a household chore.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-2-9",
+              "type": "choice",
+              "prompt": "Which is a good chore to help at home?",
+              "options": [
+                "Sweeping the floor",
+                "Breaking toys",
+                "Making a mess"
+              ],
+              "answer": "Sweeping the floor",
+              "hint": "It keeps the house clean.",
+              "explanation": "Sweeping is a household chore.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-2-10",
+              "type": "choice",
+              "prompt": "Which is a good chore to help at home?",
+              "options": [
+                "Sweeping the floor",
+                "Breaking toys",
+                "Making a mess"
+              ],
+              "answer": "Sweeping the floor",
+              "hint": "It keeps the house clean.",
+              "explanation": "Sweeping is a household chore.",
+              "language": "en-US",
+              "approved": true
+            }
+          ]
+        },
+        {
+          "id": "moo-community",
+          "name": "Community Route",
+          "topic": "Places, rules and types of allowance",
+          "challenges": [
+            {
+              "id": "moo-3-1",
+              "type": "choice",
+              "prompt": "Rules in a community help to maintain:",
+              "options": [
+                "Good coexistence",
+                "Chaos",
+                "Pollution"
+              ],
+              "answer": "Good coexistence",
+              "hint": "It helps people live together.",
+              "explanation": "Rules are for good coexistence.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-3-2",
+              "type": "choice",
+              "prompt": "Rules in a community help to maintain:",
+              "options": [
+                "Good coexistence",
+                "Chaos",
+                "Pollution"
+              ],
+              "answer": "Good coexistence",
+              "hint": "It helps people live together.",
+              "explanation": "Rules are for good coexistence.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-3-3",
+              "type": "choice",
+              "prompt": "Rules in a community help to maintain:",
+              "options": [
+                "Good coexistence",
+                "Chaos",
+                "Pollution"
+              ],
+              "answer": "Good coexistence",
+              "hint": "It helps people live together.",
+              "explanation": "Rules are for good coexistence.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-3-4",
+              "type": "choice",
+              "prompt": "Rules in a community help to maintain:",
+              "options": [
+                "Good coexistence",
+                "Chaos",
+                "Pollution"
+              ],
+              "answer": "Good coexistence",
+              "hint": "It helps people live together.",
+              "explanation": "Rules are for good coexistence.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-3-5",
+              "type": "choice",
+              "prompt": "Rules in a community help to maintain:",
+              "options": [
+                "Good coexistence",
+                "Chaos",
+                "Pollution"
+              ],
+              "answer": "Good coexistence",
+              "hint": "It helps people live together.",
+              "explanation": "Rules are for good coexistence.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-3-6",
+              "type": "choice",
+              "prompt": "Rules in a community help to maintain:",
+              "options": [
+                "Good coexistence",
+                "Chaos",
+                "Pollution"
+              ],
+              "answer": "Good coexistence",
+              "hint": "It helps people live together.",
+              "explanation": "Rules are for good coexistence.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-3-7",
+              "type": "choice",
+              "prompt": "Rules in a community help to maintain:",
+              "options": [
+                "Good coexistence",
+                "Chaos",
+                "Pollution"
+              ],
+              "answer": "Good coexistence",
+              "hint": "It helps people live together.",
+              "explanation": "Rules are for good coexistence.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-3-8",
+              "type": "choice",
+              "prompt": "Rules in a community help to maintain:",
+              "options": [
+                "Good coexistence",
+                "Chaos",
+                "Pollution"
+              ],
+              "answer": "Good coexistence",
+              "hint": "It helps people live together.",
+              "explanation": "Rules are for good coexistence.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-3-9",
+              "type": "choice",
+              "prompt": "Rules in a community help to maintain:",
+              "options": [
+                "Good coexistence",
+                "Chaos",
+                "Pollution"
+              ],
+              "answer": "Good coexistence",
+              "hint": "It helps people live together.",
+              "explanation": "Rules are for good coexistence.",
+              "language": "en-US",
+              "approved": true
+            },
+            {
+              "id": "moo-3-10",
+              "type": "choice",
+              "prompt": "Rules in a community help to maintain:",
+              "options": [
+                "Good coexistence",
+                "Chaos",
+                "Pollution"
+              ],
+              "answer": "Good coexistence",
+              "hint": "It helps people live together.",
+              "explanation": "Rules are for good coexistence.",
+              "language": "en-US",
+              "approved": true
+            }
+          ]
+        }
+      ]
+    }
   ]
 }
