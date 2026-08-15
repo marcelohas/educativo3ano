@@ -1,0 +1,10 @@
+export type ChallengeType='choice'|'boolean'|'match'|'order'|'fill';
+export interface Challenge{id:string;type:ChallengeType;prompt:string;options:string[];answer:string;hint:string;explanation:string;language:'pt-BR'|'en-US'|'es-ES';approved:boolean}
+export interface Station{id:string;name:string;topic:string;challenges:Challenge[]}
+export interface Subject{id:string;name:string;color:string;icon:string;stations:Station[]}
+export interface Catalog{version:string;source:string;subjects:Subject[]}
+export interface Preferences{preset:'standard'|'calm'|'custom';music:number;effects:number;voice:number;reducedMotion:boolean;decorations:boolean;highContrast:boolean;largeText:boolean;confirmTransitions:boolean}
+export interface Attempt{challengeId:string;correct:boolean;usedHint:boolean;review:boolean;at:string}
+export interface Session{id:string;subjectId:string;stationIndex:number;challengeIndex:number;status:'active'|'paused'|'completed';attempts:Attempt[];startedAt:string;completedAt?:string}
+export interface Profile{nickname:string;fullName?:string;school?:string;className?:string;teacher?:string}
+export interface AppData{profile:Profile;preferences:Preferences;sessions:Session[];stamps:string[];tickets:string[];trains:number}

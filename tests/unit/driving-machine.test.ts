@@ -1,0 +1,1 @@
+import{describe,it,expect}from'vitest';import{DrivingMachine}from'../../src/driving/driving-machine';describe('condução',()=>{it('só abre depois de parar na faixa',()=>{const m=new DrivingMachine();m.close();m.accelerate();m.accelerate();m.accelerate();m.brake();m.brake();m.brake();expect(m.state).toBe('stopped');expect(m.open()).toBe(true)})})

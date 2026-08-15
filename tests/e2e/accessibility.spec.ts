@@ -1,0 +1,1 @@
+import{test,expect}from'@playwright/test';test('possui salto e regiões',async({page})=>{await page.goto('');await expect(page.locator('main')).toHaveAttribute('id','app');await expect(page.getByRole('navigation')).toBeVisible()})

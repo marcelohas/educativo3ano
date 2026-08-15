@@ -1,0 +1,13 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+tmp/
+*.pdf
+.agents/
+.reversa/
+_reversa_sdd/
+_reversa_forward/
+.codex/
+AGENTS.md
+*.log

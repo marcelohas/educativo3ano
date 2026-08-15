@@ -1,0 +1,1 @@
+import type{AppData,Session}from'../domain/types';import{saveData}from'./local-repository';export function checkpoint(data:AppData,session:Session){const i=data.sessions.findIndex(s=>s.id===session.id);if(i<0)data.sessions.push(session);else data.sessions[i]=session;saveData(data)}

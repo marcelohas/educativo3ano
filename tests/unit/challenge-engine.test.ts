@@ -1,0 +1,1 @@
+import{describe,it,expect}from'vitest';import{checkAnswer}from'../../src/challenges/challenge-engine';import type{Challenge}from'../../src/domain/types';describe('desafios',()=>{it('corrige sem diferenciar maiúsculas',()=>{const q={answer:'Verdadeiro'}as Challenge;expect(checkAnswer(q,'verdadeiro')).toBe(true)})})

@@ -1,0 +1,2 @@
+import type {Attempt} from '../domain/types';
+export function mastery(attempts:Attempt[]){const correct=attempts.filter(a=>a.correct);const autonomous=correct.filter(a=>!a.usedHint).length;const reviewed=correct.filter(a=>a.review).length;const recent=attempts.slice(-5);const accuracy=recent.length?recent.filter(a=>a.correct).length/recent.length:0;return{correct:correct.length,autonomous,reviewed,accuracy,mastered:correct.length>=3&&autonomous>=2&&reviewed>=1&&accuracy>=.8}}

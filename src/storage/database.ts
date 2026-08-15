@@ -1,0 +1,2 @@
+export const DB_NAME='estacoes-conhecimento';export const DB_VERSION=1;const stores=['profiles','preferences','sessions','attempts','draftAnswers','contentProgress','rewards','catalogVersions','securitySettings'];
+export function openDatabase():Promise<IDBDatabase>{return new Promise((resolve,reject)=>{const r=indexedDB.open(DB_NAME,DB_VERSION);r.onupgradeneeded=()=>{const db=r.result;for(const name of stores)if(!db.objectStoreNames.contains(name))db.createObjectStore(name,{keyPath:'id'})};r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error)})}
